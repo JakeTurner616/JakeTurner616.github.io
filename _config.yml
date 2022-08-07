@@ -16,14 +16,14 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: America/Denver
+timezone: 
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: Serverboi.org                          # the main title
 
-tagline: Self-Hosting - Programming - Blogging   # it will display as the sub-title
+tagline: Self-Hosting, Programming and Blogging.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
@@ -32,7 +32,7 @@ description: >-                        # used by seo meta and the atom feed
 
 
 the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://serverboi.org'
+url: ''
 
 github:
   username: JakeTurner616             # change to your github username
