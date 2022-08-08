@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 comments: true
 title: "Megaromserver shareware"
 date: 2022-08-08 2:50:00 -0500
