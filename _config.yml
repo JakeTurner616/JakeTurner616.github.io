@@ -28,7 +28,7 @@ tagline: Self-Hosting, Programming, and Blogging.   # it will display as the sub
 description: Self-Hosting, Programming, and Blogging.
 
 # the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://serverboi.org'
 
 github:
   username: JakeTurner616             # change to your github username
