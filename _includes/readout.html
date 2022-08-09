@@ -1,11 +1,9 @@
 
 <script>
-var req = new XMLHttpRequest();
-
-req.open('GET', 'proxy.php?url=http://tb.serverboi.org', false);
-req.send(null);
-
-if(req.status == 200) {
-   alert(req.responseText);
-}
+window.confirm("This page contains shareware, abandonware, uncurrated or even potentially dangerous software!");
+  if (confirm("Press a button!")) {
+  txt = "You pressed OK!";
+} else {
+  txt = "You pressed Cancel!";
+} 
 </script>
