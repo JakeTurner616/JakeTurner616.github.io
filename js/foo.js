@@ -7,4 +7,4 @@ req.send(null);
 if(req.status == 200) {
    alert(req.responseText);
 }
-    </script>
+</script>
