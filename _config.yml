@@ -198,5 +198,4 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     
-php_path: _includes/../.php/
-include: [.php]
+
