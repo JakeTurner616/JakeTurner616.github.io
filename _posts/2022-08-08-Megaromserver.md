@@ -7,6 +7,7 @@ date: 2022-08-08 2:50:00 -0500
 
 {% include megaromserver.html %}
 {% include readout.html %}
+This will be {% raw %}<?php echo("parsed"); ?>{% endraw %} correctly.
 ---
 
 
