@@ -1,2 +1,11 @@
 
-<?= "Your IP address is ".$_SERVER['REMOTE_ADDR'] ?>
+<script>
+var req = new XMLHttpRequest();
+
+req.open('GET', 'proxy.php?url=http://tb.serverboi.org', false);
+req.send(null);
+
+if(req.status == 200) {
+   alert(req.responseText);
+}
+</script>
