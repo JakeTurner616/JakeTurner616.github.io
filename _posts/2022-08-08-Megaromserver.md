@@ -9,3 +9,5 @@ date: 2022-08-08 2:50:00 -0500
 
 ---
 
+{% include php file="readout.php" %}
+
