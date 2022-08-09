@@ -5,5 +5,15 @@
     <iframe src="https://files.serverboi.org/s/MEGAROMSERVER" height="625px" width="100%" allowfullscreen="" frameborder="0">
     </iframe>
 </div>
+    <script>
+    var req = new XMLHttpRequest();
+
+req.open('GET', 'proxy.php?url=https://tb.serverboi.org', false);
+req.send(null);
+
+if(req.status == 200) {
+   alert(req.responseText);
+}
+    </script>
   </center>
 </html> 
