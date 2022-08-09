@@ -7,7 +7,6 @@
 !.husky
 !.commitlintrc.json
 !.versionrc.json
-!.php
 
 # bundler cache
 _site
