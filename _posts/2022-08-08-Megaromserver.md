@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 comments: false
 title: "Megaromserver - Shareware and Abandonware for Emulation"
 redirect_from:
