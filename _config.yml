@@ -147,7 +147,7 @@ defaults:
       toc: true         # Display TOC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
-      permalink: serverboi.org/posts/:title/
+      permalink: /posts/:title/
   - scope:
       path: _drafts
     values:
@@ -196,8 +196,8 @@ jekyll-archives:
     category: category
     tag: tag
   permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+    tag: serverboi.org/tags/:name/
+    category: serverboi.org/categories/:name/
     
 plugins:
   - jekyll-redirect-from
