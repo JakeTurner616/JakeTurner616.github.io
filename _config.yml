@@ -198,4 +198,7 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     
+plugins:
+  - jekyll-redirect-from
+    
 
