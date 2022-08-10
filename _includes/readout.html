@@ -7,21 +7,10 @@ window.confirm("This page contains shareware, abandonware, uncurrated or even po
   window.location.href = "/";
 } 
 </script>
-  <iframe id="frameID" src="https://tb.serverboi.org" title="https://tb.serverboi.org"></iframe> 
-  
-<a href="#" onclick=
-  "getIframeContent('frameID');">
-  Compute disk usage
-</a>
-  
-<script>
-function getIframeContent(frameID) {
-  var frameObj = 
-    document.getElementById(frameID);
-  var frameContent = frameObj
-    .contentWindow.document.body.innerHTML;
-  alert("frame content : " + frameContent);
-}
-</script>
+<iframe name="FrameID" src="https://tb.serverboi.org"></iframe>
+
+<a href="link.html" target="FrameID">Compute disk usage</a>
+
+ 
   
 
