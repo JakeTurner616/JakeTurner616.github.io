@@ -2,6 +2,9 @@
 layout: page
 comments: false
 title: "Megaromserver - Shareware and Abandonware for Emulation"
+redirect_from:
+  - /Megaromserver/
+  - /megaromserver/
 date: 2022-08-08 2:50:00 -0500
 ---
 {% include megaromserver.html %}
