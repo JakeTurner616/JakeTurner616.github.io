@@ -14,7 +14,8 @@ window.confirm("This page contains shareware, abandonware, uncurrated or even po
   $(document).ready(function(){
     $("#iframe2").hide();
     $("#Link").click(function(){
-        $("#linkDiv").hide();
+       $("#linkDiv").hide();
+       $("#iframe2").show()
         return false;
     });
 });
@@ -22,10 +23,12 @@ window.confirm("This page contains shareware, abandonware, uncurrated or even po
   <body>
     <center>
       <p>
+        <div id="linkDiv">
         <a href=
 "https://tb.serverboi.org" target="iframe2" id="Link">
           Compute disk usage
         </a>
+          </div>
         </p>
       <p>
         <iframe allowtransparency="true" style="background: #1B1B1E;" seamless
