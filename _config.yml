@@ -202,5 +202,4 @@ jekyll-archives:
 plugins:
   - jekyll-redirect-from
   
-markdown: kramdown
 
