@@ -12,8 +12,8 @@ window.confirm("This page contains shareware, abandonware, uncurrated or even po
   window.location.href = "/";
 } 
   $(document).ready(function(){
-    $("#iframe1").hide();
-    $("#theLink").click(function(){
+    $("#iframe2").hide();
+    $("#Link").click(function(){
         $("#linkDiv").hide();
         return false;
     });
@@ -23,7 +23,7 @@ window.confirm("This page contains shareware, abandonware, uncurrated or even po
     <center>
       <p>
         <a href=
-"https://tb.serverboi.org" target="iframe2" >
+"https://tb.serverboi.org" target="iframe2" id="Link">
           Compute disk usage
         </a>
         </p>
