@@ -1,7 +1,23 @@
 <body>
-    <div class="video-container">
-        <iframe name="status" id="status" src="https://status.serverboi.org" height="625px" width="100%" allowfullscreen="" frameborder="0">
+  <div id="opaqueLayer">
+  <div class="video-container">
+        <iframe name="status" id="status" src="https://status.serverboi.org" height="630px" width="100%" allowfullscreen="" frameborder="0" scrolling="no">
         </iframe>
-    </div>
+  </div>
+ </div>   
+<style>
+  #status {
+  overflow: hidden;
+    
+}
+  #opaqueLayer {
+    position:absolute;
+    width:100%;
+    border:1px solid red;   
+    height:630px;
+        
+}
+</style>
 </body>
 </html>
+ 
