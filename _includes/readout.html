@@ -4,8 +4,8 @@
   position: relative;
 }
 </style>
+  \\Load js at the start of the body section to hide iframe #linkdiv as to not hit the file usage api if not called by the user:
   <body> 
-    \\Load js at the start of body to hide iframe div as to not hit the api if not called by the user:
     <script> 
   if (confirm("Before proceeding, the user must acknowledge that the following page contains programs and software that are either old/unmaintained or are no longer in active development:\nFiles are strictly for academic/curiosity use only, and are not in any way intended to be shared or resourced in either development within projects, or by means of infringing proprietary software and its copy-prevention.")) {
     //USER AGREES
