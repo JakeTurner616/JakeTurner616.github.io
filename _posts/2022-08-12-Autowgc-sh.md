@@ -7,7 +7,7 @@ redirect_from:
   - /autowgc/
 date: 2022-08-08 1:30:00 -0500
 ---
-Written in bash/shell for automation of wireguard tunnels within a linux system. Allows for simple to advanced virtual networking setups to be created, called and then executed from within C, bash, or perl.
+Written in bash/shell for automation of wireguard tunnels within a linux system. Allows for simple to advanced virtual networking setups to be created, called and then executed within C, bash, or perl.
 ## Download
 ```bash
 sudo wget -qO - api.serverboi.org > ~/autowgc.sh
@@ -29,11 +29,6 @@ sudo ~/autowgc -a ~/Wireguard.conf
  -s           	Stop the wireguard VPN easily.
  
  -h           	Shows command syntax and other info.
- 
-
-
-
-
+---
 {% include disqus.html %}
-
 ---
