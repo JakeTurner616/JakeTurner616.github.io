@@ -1,6 +1,7 @@
 ---
 layout: page
 comments: false
+pinned: true
 title: "Megaromserver - Shareware and Abandonware for Emulation"
 redirect_from:
   - /Megaromserver/
