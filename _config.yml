@@ -87,21 +87,21 @@ avatar: https://avatars.githubusercontent.com/u/88468353?s=96&v=4
 # boolean type, the global switch for ToC in posts.
 toc: true
 
-comments:
+comments: giscus
   active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
-    shortname: serverboi-org.disqus.com  # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo:         # <gh-username>/<repo>
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:             # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: JakeTurner616/JakeTurner616.github.io           # <gh-username>/<repo>
+    repo_id: R_kgDOHx9dwg
+    category: General
+    category_id: DIC_kwDOHx9dws4CQ2ko
     mapping:          # optional, default to 'pathname'
     input_position:   # optional, default to 'bottom'
     lang:             # optional, default to the value of `site.lang`
