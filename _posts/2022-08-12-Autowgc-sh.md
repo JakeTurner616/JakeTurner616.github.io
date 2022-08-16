@@ -32,4 +32,3 @@ sudo ~/autowgc -a ~/Wireguard.conf
  
 ---
 {% include disqus.html %}
----
