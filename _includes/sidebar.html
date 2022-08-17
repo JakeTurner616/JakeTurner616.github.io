@@ -82,7 +82,7 @@
       {% if url %}
       <a href="{{ url }}" aria-label="{{ entry.type }}"
         {% unless entry.noblank %}target="_blank" rel="noopener"{% endunless %}>
-        <i title="{{ url }}" class="{{ entry.icon }}"></i>
+        <i title="{{ entry.type }}" class="{{ entry.icon }}"></i>
       </a>
       {% endif %}
 
