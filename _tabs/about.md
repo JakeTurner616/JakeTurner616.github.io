@@ -7,6 +7,9 @@ redirect_from:
   - /authors/
   - /info/
   - /Info/
+  - /contact/
+  - /Contact/
+  - /About/
 icon: fas fa-info-circle
 order: 4
 ---
