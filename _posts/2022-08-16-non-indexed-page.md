@@ -4,5 +4,5 @@ title: Non indexed page
 redirect_from:
   - /plex/
   - /Plex/
-published: false
+hidden: true
 ---
