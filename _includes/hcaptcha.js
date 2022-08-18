@@ -1,3 +1,4 @@
+// this file is not sourced in a script tag.
 // success callback
 var onSuccess = function(response) {
     var errorDivs = document.getElementsByClassName("hcaptcha-error");
