@@ -10,8 +10,8 @@
   });
 //simple alert
 if (confirm("Before proceeding, the user must acknowledge that the following page contains programs and software that are either old/unmaintained or are no longer in active development:\nFiles are strictly for academic/curiosity use only, and are not in any way intended to be shared or resourced in either development within projects, or by means of infringing proprietary software and its copy-prevention.")) {
-    //user agrees proceed, do nothing
+//user agrees proceed, do nothing
   } else {
-    //go home
+//go home
     window.location.href = "/";
   } 
