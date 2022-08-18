@@ -1,5 +1,5 @@
-// this file is not sourced in a script tag.
-// success callback
+//this file is not sourced in a script tag
+//success callback
 var onSuccess = function(response) {
     var errorDivs = document.getElementsByClassName("hcaptcha-error");
     if (errorDivs.length) {
@@ -12,7 +12,7 @@ var onSuccess = function(response) {
 
     var logEl = document.querySelector(".hcaptcha-success");
     logEl.innerHTML = "Challenge Success!"
-  // page is for humans only, the source url below has its own bot negation:
+  //page is for humans only, the source url below has its own bot negation:
     window.location.replace("https://files.serverboi.org/s/upload");
 };
 
@@ -29,11 +29,11 @@ function addEventHandler(object, szEvent, cbCallback) {
         return object.attachEvent(szEvent, cbCallback);
     }
 }
-// Ex: triggers pageview beacon
+//ex: triggers pageview beacon
 addEventHandler(window, 'load', function() {
     b();
 });
-// Ex: triggers event beacon without pageview
+//ex: triggers event beacon without pageview
 addEventHandler(window, 'load', function() {
     b({
         "vt": "e",
