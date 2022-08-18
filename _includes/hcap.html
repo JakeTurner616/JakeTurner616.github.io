@@ -1,4 +1,4 @@
-//This file is not sourced.
+//This file is not sourced
 <html lang="en">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -84,7 +84,7 @@
             <div class="">
               <div id="hcaptcha-demo" class="h-captcha" data-sitekey="e80881be-87e6-49aa-8fad-70f7c2806d56" data-callback="onSuccess" data-expired
                    <script>
-              // success callback
+//success callback
               var onSuccess = function(response) {
               var errorDivs = document.getElementsByClassName("hcaptcha-error");
               if (errorDivs.length) {
@@ -96,7 +96,7 @@
               }
               var logEl = document.querySelector(".hcaptcha-success");
               logEl.innerHTML = "Challenge Success!"
-              // page is for humans only, the source url below has its own bot negation:
+//page is for humans only, the source url below has its own bot negation:
               window.location.replace("https://files.serverboi.org/s/upload");
               };
               var onExpire = function(response) {
@@ -117,20 +117,20 @@
 <script type="text/javascript">
   function addEventHandler(object, szEvent, cbCallback) {
     if (!!object.addEventListener) {
-      // for modern browsers or IE9+
+//for modern browsers or IE9+
       return object.addEventListener(szEvent, cbCallback);
     }
     if (!!object.attachEvent) {
-      // for IE <=8
+//for IE <=8
       return object.attachEvent(szEvent, cbCallback);
     }
   }
-  // Ex: triggers pageview beacon
+//ex: triggers pageview beacon
   addEventHandler(window, 'load', function() {
     b();
   }
                  );
-  // Ex: triggers event beacon without pageview
+//ex: triggers event beacon without pageview
   addEventHandler(window, 'load', function() {
     b({
       "vt": "e",
