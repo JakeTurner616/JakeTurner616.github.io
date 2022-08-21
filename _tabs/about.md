@@ -15,7 +15,7 @@ redirect_from:
 icon: fas fa-info-circle
 order: 4
 ---
-
+{% include anim.html %}
 ## Serverboi.org static site
 <div id="status">
 <a href="https://serverboi.org/" target="_blank">
