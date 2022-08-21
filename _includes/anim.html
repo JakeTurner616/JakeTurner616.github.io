@@ -20,9 +20,17 @@
         white-space: nowrap;
         overflow: hidden;
         animation: typewriter 3s steps(16) alternate,
-          blink 3000ms steps(16) normal;
+          blink 800ms steps(16) normal;
         border-right: 2px solid white;
         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      }
+          @keyframes typewriter {
+        from {
+          width: 0%;
+        }
+        to {
+          width: 85%;
+        }
       }
 }
       h3 {
@@ -30,9 +38,7 @@
         max-width: 70%;
         white-space: nowrap;
         overflow: hidden;
-        animation: typewriter 3s steps(16) alternate,
-          blink 3000ms steps(16) normal;
-        border-right: 2px solid white;
+        animation: typewriter 3s steps(16) alternate;
         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
       }
       @keyframes typewriter {
