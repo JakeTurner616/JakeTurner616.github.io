@@ -15,7 +15,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 {% include anim.html %}
-<h2>Serverboi.org static site</h2> 
+<h2>Status:</h2> 
 <div id="status">
 <a href="https://status.serverboi.org/" target="_blank">
 <img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=offline&label=website&up_color=brightgreen&up_message=online&url=https://serverboi.org"><img alt="Proxy" src="https://img.shields.io/website?down_color=red&down_message=offline&label=proxy%20&up_color=brightgreen&up_message=online&url=https://api.serverboi.org"> 
