@@ -17,7 +17,7 @@ order: 4
 ---
 
 ## Serverboi.org static site
-{% include css.html %}
+{% include nodrag.html %}
 <div id="status">
 <a href="https://serverboi.org/" target="_blank">
 <img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=offline&label=website&up_color=brightgreen&up_message=online&url=https://serverboi.org"> <a href="https://status.serverboi.org/" target="_blank"><img alt="Proxy" src="https://img.shields.io/website?down_color=red&down_message=offline&label=proxy%20&up_color=brightgreen&up_message=online&url=https://api.serverboi.org"></a></a> 
