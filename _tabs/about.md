@@ -17,7 +17,8 @@ order: 4
 ---
 
 ## Serverboi.org static site
-<img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=offline&label=proxy%20&up_color=brightgreen&up_message=online&url=https%3A%2F%2Fapi.serverboi.org">
+
+<img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=offline&label=website&up_color=brightgreen&up_message=online&url=https://serverboi.org"> <img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=offline&label=proxy%20&up_color=brightgreen&up_message=online&url=https://api.serverboi.org">
 
 
 ## Info
