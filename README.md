@@ -1,7 +1,7 @@
 ## Serverboi.org static site
 [![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fserverboi.org&color=brightgreen)](https://serverboi.org/)
-[![24h](https://status.serverboi.org/api/badge/15/uptime/?label=website%2024&labelSuffix=h)](https://status.serverboi.org/)
 [![proxystatus](https://img.shields.io/website?down_color=red&down_message=offline&label=proxy&up_color=brightgreen&up_message=online&url=https%3A%2F%2Fapi.serverboi.org%2F)](https://status.serverboi.org/)
+[![24h](https://status.serverboi.org/api/badge/15/uptime/?label=website%2024&labelSuffix=h)](https://status.serverboi.org/)
 [![proxy](https://status.serverboi.org/api/badge/22/uptime/720?label=proxy%2024&labelSuffix=h)](https://status.serverboi.org/)
 
 
