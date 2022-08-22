@@ -22,7 +22,7 @@ order: 4
 </a>
 </div>
 <h2>About</h2> 
-This is a simple documentation site for [my github repositories](https://github.com/JakeTurner616?tab=repositories) and other programming projects. This website is 100% open source. Create a [PR](https://github.com/JakeTurner616/JakeTurner616.github.io/pulls)?
+This is a simple documentation site for [my github repositories](https://github.com/JakeTurner616?tab=repositories){:target="_blank"} and other programming projects. This website is 100% open source. Create a [PR](https://github.com/JakeTurner616/JakeTurner616.github.io/pulls){:target="_blank"}?
 
 <h2>License</h2> 
-This work is published under [MIT](https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/LICENSE) License.
+This work is published under [MIT](https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/LICENSE){:target="_blank"} License.
