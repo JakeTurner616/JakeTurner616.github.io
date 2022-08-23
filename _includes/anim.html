@@ -1,6 +1,7 @@
   <head>
     <style>
-       {
+
+{
         box-sizing: border-box;
         padding: 0;
         margin: 0;
@@ -94,10 +95,10 @@
         max-width: 60%;
      }
 }
-        @media (-webkit-min-device-pixel-ratio: 1.50) {
+        @media (-webkit-min-device-pixel-ratio: 1.50) not (max-width: 1000px) {
     h3 {
     height: auto;
-  max-width: 55%;
+  max-width: auto;
      }
 }
         @media (-webkit-min-device-pixel-ratio: 1.75) not (max-width: 1000px) {
@@ -105,6 +106,7 @@
     position: fixed;
     visibility: hidden;
     display: none;
+        max-width: auto;
      }
 }
    @media (max-width: 1000px) and (max-height: 19000px {
