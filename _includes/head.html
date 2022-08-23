@@ -3,6 +3,7 @@
 -->
 
 <head>
+  <meta name="theme-color" content="rgb(39, 40, 43);">
   <style>
   .list-unstyled > li:nth-child(1) > div:nth-child(1) {
   pointer-events: none;
@@ -234,11 +235,14 @@ div.post-preview:nth-child(1) > div:nth-child(3) > div:nth-child(1) > i:nth-chil
       visibility: visible;
       content: "✎";
       }
+      html body div#topbar-wrapper {
+      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+      }
       </style>
   </noscript>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <!-- Notch veiwport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
   <!-- Allow having a localized datetime different from the appearance language -->
   {% if site.prefer_datetime_locale %}
     <meta name="prefer-datetime-locale" content="{{ site.prefer_datetime_locale }}">
