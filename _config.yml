@@ -189,9 +189,7 @@ exclude:
   - gulpfile.js
   - node_modules
   - package*.json
-  - _includes/hcap.html
   - _includes/readout.js
-  - _includes/hcaptcha.js
 
 jekyll-archives:
   enabled: [categories, tags]
