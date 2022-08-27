@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 comments: true
 title: "Autowgc.sh - CLI only WireGuard Client for VPN Automation and Integration"
 redirect_from:
