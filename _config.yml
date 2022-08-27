@@ -201,6 +201,6 @@ jekyll-archives:
     category: serverboi.org/categories/:name/
     
 plugins:
-  - jekyll-redirect-fromd
+  - jekyll-redirect-from
   - jekyll-target-blank
   
