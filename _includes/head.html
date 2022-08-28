@@ -5,6 +5,27 @@
 <head>
   <meta name="theme-color" content="#27282B" />
   <style>
+  #search-result-wrapper.d-flex.justify-content-center {
+  position: absolute;
+  top: 0%;
+  display: flex;
+  right: 0%;
+  left: 20%;
+  }
+
+/* Smartphones (nothing bigger than iphone X) ----------- */
+@media only screen
+and (max-width : 896px) {
+  #search-result-wrapper.d-flex.justify-content-center {
+  position: absolute;
+  top: 0%;
+  display: flex;
+  right: 0%;
+  left: 0%;
+  text-overflow:ellipsis;
+  justify-content: left;
+  }
+}
   div.site-subtitle.font-italic {
   padding-bottom: 20px;
   }  
