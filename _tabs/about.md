@@ -22,7 +22,7 @@ order: 4
 </a>
 </div>
 <h2 class='lineUp'>About</h2> 
-This is a simple documentation site for my <a  href="https://github.com/JakeTurner616" target="_blank" rel="nofollow">github repos</a> and other programming projects. This website is 100% open source.
+<p class='lineUp'>This is a simple documentation site for my <a  href="https://github.com/JakeTurner616" target="_blank" rel="nofollow">github repos</a> and other programming projects. This website is 100% open source.</p>
 
 <h2 class='lineUp'>License</h2> 
-This work is published under MIT License.
+<p class='lineUp'>This work is published under MIT License.</p>
