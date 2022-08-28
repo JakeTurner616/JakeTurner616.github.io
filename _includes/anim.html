@@ -1,24 +1,25 @@
   <head>
     <style>
- .lineUp {
-  animation: 2.5s anim-lineUp ease-out;
+body{
+  display:flex;
+  align-items:center;
+  flex-direction: column;
 }
-@keyframes anim-lineUp {
-  0% {
-    opacity: 0;
-    transform: translateY(100%);
-  }
-  20% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
+
+
+
+.lineUp {
+	opacity: 0;
+ transform: translate3d(0, 20px, 0);
+
+	transition: .50s all ease-in-out;
+}
+
+.lineUp {
+	opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+      
 }
 h1.dynamic-title {
   visibility: hidden;
@@ -26,26 +27,6 @@ h1.dynamic-title {
 }
 
       
-.lineUp1 {
-  animation: 3s anim-lineUp1 ease-out;
-}
-@keyframes anim-lineUp1 {
-  0% {
-    opacity: 0;
-    transform: translateY(100%);
-  }
-  20% {
-    opacity: 0;
-  }
-  55% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-}
       
       
 h3 {
