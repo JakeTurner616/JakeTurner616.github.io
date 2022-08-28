@@ -1,6 +1,6 @@
 ---
 title: About
-type: page
+type: post
 redirect_from:
   - /author/
   - /Author/
