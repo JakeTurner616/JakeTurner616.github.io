@@ -14,6 +14,7 @@ redirect_from:
 icon: fas fa-info-circle
 order: 4
 ---
+{% include anim.html %}
 <h2>Status</h2> 
 <div id="status">
 <a href="https://status.serverboi.org/" target="_blank">
@@ -21,8 +22,7 @@ order: 4
 </a>
 </div>
 <h2>About</h2> 
-This is a simple documentation site for [my github repositories](https://github.com/JakeTurner616?tab=repositories) and other programming projects. This website is 100% open source. Create a [PR](https://github.com/JakeTurner616/JakeTurner616.github.io/pulls)?
+This is a simple documentation site for my <a  href="https://github.com/JakeTurner616" target="_blank" rel="nofollow">github repos</a> and other programming projects. This website is 100% open source.
 
 <h2>License</h2> 
-This work is published under [MIT](https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/LICENSE) License.
-{% include anim.html %}
+This work is published under MIT License.
