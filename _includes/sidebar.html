@@ -1,7 +1,11 @@
 <!--
   The Side Bar
 -->
-
+<style>
+  span.cursor {
+  color: grey;
+  }
+</style>  
 <div id="sidebar" class="d-flex flex-column align-items-end">
   <div class="profile-wrapper text-center">
     <div id="avatar">
@@ -35,10 +39,10 @@
                 var delim = element.dataset.delim || ",";
                 var words = element.dataset.words || "override these,sample typing";
                 this.words = words.split(delim).filter((v) => v); // non empty words
-                this.delay = element.dataset.delay || 200;
+                this.delay = element.dataset.delay || 300;
                 this.loop = element.dataset.loop || "true";
                 if (this.loop === "false" ) { this.loop = 1 }
-                this.deleteDelay = element.dataset.deletedelay || element.dataset.deleteDelay || 800;
+                this.deleteDelay = element.dataset.deletedelay || element.dataset.deleteDelay || 1000;
               
                 this.progress = { word: 0, char: 0, building: true, looped: 0 };
                 this.typing = true;
@@ -71,7 +75,7 @@
                   this.cursor.element.style.opacity = "1";
                   this.cursor.on = true;
                   clearInterval(this.cursor.interval);
-                  this.cursor.interval = setInterval(() => this.cursor.updateBlinkState(), 400);
+                  this.cursor.interval = setInterval(() => this.cursor.updateBlinkState(), 500);
                 }
               
                 e.innerHTML = currentDisplay;
@@ -113,7 +117,7 @@
                 element.innerHTML = this.cursorDisplay;
                 this.on = true;
                 element.style.transition = "all 0.1s";
-                this.interval = setInterval(() => this.updateBlinkState(), 400);
+                this.interval = setInterval(() => this.updateBlinkState(), 500);
               }
               Cursor.prototype.updateBlinkState = function() {
                 if (this.on) {
