@@ -37,6 +37,7 @@
     <center>
     <div class="site-subtitle font-italic"><p id="dynamic-content"><span id="typer-wrapper">
         <span class="typer" data-delay="80" id="me" data-deleteDelay="1250" data-words="{{ site.tagline }}">
+        <noscript><div class="site-subtitle font-italic">{{ site.tagline }}</div></noscript>
     </center>
         </span>
         <span class="cursor">
@@ -109,4 +110,6 @@
   </div> <!-- .sidebar-bottom -->
 
 </div><!-- #sidebar -->
-<script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+<script async src="_includes/typer.js">
+
+</script>
