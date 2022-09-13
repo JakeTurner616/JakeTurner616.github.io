@@ -64,7 +64,7 @@ public string RunCommandWithBash(sudo bash ~/autowgc)
 }
 \\ or try out CliWrap https://github.com/Tyrrrz/CliWrap for bash interaction from within C#
 ```
-## Execute from within Perl:
+## Execute within Perl:
 ```Perl
 $command="ls /";
 system($sudo bash autowgc -a <file>);
