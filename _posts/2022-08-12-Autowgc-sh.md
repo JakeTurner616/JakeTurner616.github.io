@@ -71,7 +71,7 @@ public string RunCommandWithBash(sudo bash ~/autowgc)
 
     return output;
 }
-## or try out CliWrap https://github.com/Tyrrrz/CliWrap for bash interaction from within C#
+// or try out CliWrap https://github.com/Tyrrrz/CliWrap for bash interaction from within C#
 ```
 {: file='~/program.cs'}
 
