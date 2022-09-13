@@ -31,19 +31,25 @@ sudo ~/autowgc -a ~/Wireguard.conf
  -s           	Stop the wireguard VPN easily.
  
  -h           	Shows command syntax and other info.
+ 
  ## Execute within C:
  ```C
 #include <stdlib.h>
 
 system("sudo bash ~/autowgc -a <file>");
 ```
+{: file='~/program.c'}
+
  ## Execute within C++:
  ```C++
 #include <cstdlib>
 
 std::system("sudo bash ~/autowgc -a <file>");
 ```
+{: file='~/program.cpp'}
+
 ## Execute within C#:
+
 ```C#
 public string RunCommandWithBash(sudo bash ~/autowgc)
 {
@@ -64,12 +70,18 @@ public string RunCommandWithBash(sudo bash ~/autowgc)
 }
 \\ or try out CliWrap https://github.com/Tyrrrz/CliWrap for bash interaction from within C#
 ```
+{: file='~/program.cs'}
+
 ## Execute within Perl:
+
 ```Perl
 $command="ls /";
 system($sudo bash autowgc -a <file>);
 ```
+{: file='~/program.pl'}
+
 ## Source:
+
 ```bash
  #!/bin/bash
 if (( EUID != 0 )); then
