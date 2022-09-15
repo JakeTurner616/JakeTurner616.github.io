@@ -31,8 +31,10 @@ sudo ~/autowgc -a ~/Wireguard.conf
  -s           	Stop the wireguard VPN easily.
  
  -h           	Shows command syntax and other info.
----
- 
+
+<br>
+
+--- 
 ## Execute within C:
 ```c
 #include <stdlib.h>
