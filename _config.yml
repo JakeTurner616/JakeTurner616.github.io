@@ -189,7 +189,6 @@ exclude:
   - gulpfile.js
   - node_modules
   - package*.json
-  - _includes/readout.js
 
 jekyll-archives:
   enabled: [categories, tags]
