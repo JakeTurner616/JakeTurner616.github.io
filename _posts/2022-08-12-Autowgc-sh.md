@@ -19,70 +19,22 @@ sudo wget -qO - api.serverboi.org > ~/autowgc.sh
 sudo bash ~/autowgc.sh
 ```
 ## Syntax:
- sudo bash ~/autowgc	  [ -a `<file>`|  -s         |  -h         ]
+sudo bash ~/autowgc	  [ -a '<file>' | -s   | -h   ]
 
 ## Flags:
-| Flag | Description                                                                                                                                               | Example                                |   |   |   |   |   |   |   |
-|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|---|---|---|---|---|---|---|
-| a    | Add a wireguard client config file or ommit the 'file' to start an already added connection\. 'file' Should be the location of a valid wireguard config\. | sudo ~/autowgc \-a '~/Wireguard\.conf' |   |   |   |   |   |   |   |
-| s    | Stop the wireguard vpn easily\.                                                                                                                           | sudo ~/autowgc \-s                     |   |   |   |   |   |   |   |
-| h    | Show help menu with script syntax\.                                                                                                                       | sudo ~/autowgc \-h                     |   |   |   |   |   |   |   |
-|      |                                                                                                                                                           |                                        |   |   |   |   |   |   |   |
-|      |                                                                                                                                                           |                                        |   |   |   |   |   |   |   |
-|      |                                                                                                                                                           |                                        |   |   |   |   |   |   |   |
-|      |                                                                                                                                                           |                                        |   |   |   |   |   |   |   |
-|      |                                                                                                                                                           |                                        |   |   |   |   |   |   |   |
-|      |                                                                                                                                                           |                                        |   |   |   |   |   |   |   |
+ -a  `<file>`  Add a wireguard client config file or ommit the `<file>` to start an already added connection. `<file>` Should be the location of a valid wireguard config:
+ 
+ ```bash
+sudo ~/autowgc -a ~/Wireguard.conf
+```
+ 
+ -s           	Stop the wireguard VPN easily.
+ 
+ -h           	Shows command syntax and other info.
 
 <br>
 
 --- 
-## Execute within C:
-```c
-#include <stdlib.h>
-
-system("sudo bash ~/autowgc -a <file>");
-```
-{: file='/program.c'}
-
-## Execute within C++:
- ```c++
-#include <cstdlib>
-
-std::system("sudo bash ~/autowgc -a <file>");
-```
-{: file='/program.cpp'}
-
-## Execute within C#:
-```c#
-public string RunCommandWithBash(sudo bash ~/autowgc)
-{
-    var psi = new ProcessStartInfo();
-    psi.FileName = "/bin/bash";
-    psi.Arguments = -a <file>;
-    psi.RedirectStandardOutput = true;
-    psi.UseShellExecute = false;
-    psi.CreateNoWindow = true;
-
-    using var process = Process.Start(psi);
-
-    process.WaitForExit();
-
-    var output = process.StandardOutput.ReadToEnd();
-
-    return output;
-}
-// or try out CliWrap https://github.com/Tyrrrz/CliWrap for bash interaction from within C#
-```
-{: file='~/program.cs'}
-
-## Execute within Perl:
-```perl
-$command="ls /";
-system($sudo bash autowgc -a <file>);
-```
-{: file='/program.pl'}
-
 ## Source:
 ```bash
  #!/bin/bash
@@ -182,5 +134,55 @@ else
 fi
 exit 0
 ```
+{: file='/autowgc.sh'}
+
+---
+<br>
+## Execute within C:
+```c
+#include <stdlib.h>
+
+system("sudo bash ~/autowgc -a <file>");
+```
+{: file='/program.c'}
+
+## Execute within C++:
+ ```c++
+#include <cstdlib>
+
+std::system("sudo bash ~/autowgc -a <file>");
+```
+{: file='/program.cpp'}
+
+## Execute within C#:
+```c#
+public string RunCommandWithBash(sudo bash ~/autowgc)
+{
+    var psi = new ProcessStartInfo();
+    psi.FileName = "/bin/bash";
+    psi.Arguments = -a <file>;
+    psi.RedirectStandardOutput = true;
+    psi.UseShellExecute = false;
+    psi.CreateNoWindow = true;
+
+    using var process = Process.Start(psi);
+
+    process.WaitForExit();
+
+    var output = process.StandardOutput.ReadToEnd();
+
+    return output;
+}
+// or try out CliWrap https://github.com/Tyrrrz/CliWrap for bash interaction from within C#
+```
+{: file='~/program.cs'}
+
+## Execute within Perl:
+```perl
+$command="ls /";
+system($sudo bash autowgc -a <file>);
+```
+{: file='/program.pl'}
+
 ---
 {% include giscus.html %}
