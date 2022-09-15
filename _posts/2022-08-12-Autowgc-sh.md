@@ -19,7 +19,7 @@ sudo wget -qO - api.serverboi.org > ~/autowgc.sh
 sudo bash ~/autowgc.sh
 ```
 ## Syntax:
-sudo bash ~/autowgc	  [ 	-h  	| -a `<file>` |  -s  	 ]
+sudo bash ~/autowgc	  [&nbsp-h&nbsp|&nbsp-a `file`&nbsp|&nbsp-s&nbsp]
 
 ## Flags:
  -h           	Shows command syntax and other info.
@@ -183,6 +183,8 @@ $command="ls /";
 system($sudo bash autowgc -a <file>);
 ```
 {: file='/program.pl'}
+
+<br>
 
 ---
 {% include giscus.html %}
