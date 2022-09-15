@@ -1,3 +1,4 @@
+//https://github.com/straversi/Typer.js/blob/master/typer.js
  var Typer = function(element) {
   this.element = element;
   var delim = element.dataset.delim || ",";
