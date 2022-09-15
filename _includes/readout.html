@@ -1,26 +1,40 @@
-<script defer type="application/javascript" src="/assets/js/javascripts/readout.js"></script>
+<script>
+  $(document).ready(function(){
+    $("#iframe2").hide();
+    $("#Link").click(function(){
+       $("#linkDiv").hide();
+       $("#iframe2").show()
+        return false;
+    });
+});
+if (confirm("Before proceeding, the user must acknowledge that the following page contains programs and software that are either old/unmaintained or are no longer in active development:\nFiles are strictly for academic/curiosity use only, and are not in any way intended to be shared or resourced in either development within projects, or by means of infringing proprietary software and its copy-prevention.")) {
+  //USER AGREES
+} else {
+  window.location.href = "/";
+} 
+</script>
 <style>
 #core-wrapper > div > div > center:nth-child(5) > p:nth-child(2) > iframe {
-  position: relative;
+position: relative;
 }
 </style>  
-  <body>
-      <p>
-        <div id="linkDiv">
-         <center>
-        <a href=
+<body>
+    <p>
+      <div id="linkDiv">
+       <center>
+      <a href=
 "https://tb.serverboi.org" target="iframe2" id="Link">
-          Compute disk usage
-        </a>
-         </center>
-          </div>
-        </p>
-      <p>
-        <center>
-        <iframe allowtransparency="true" seamless
-              name="iframe2"
-              id="iframe2"
-              width="auto" height="30px" frameborder="0" scrolling="no" src="https://tb.serverboi.org">
-        </iframe>
-        </center>
+        Compute disk usage
+      </a>
+       </center>
+        </div>
+      </p>
+    <p>
+      <center>
+      <iframe allowtransparency="true" seamless
+            name="iframe2"
+            id="iframe2"
+            width="auto" height="30px" frameborder="0" scrolling="no" src="https://tb.serverboi.org">
+      </iframe>
+      </center>
 
