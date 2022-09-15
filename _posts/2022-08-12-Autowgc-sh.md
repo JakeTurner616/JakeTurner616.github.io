@@ -19,18 +19,18 @@ sudo wget -qO - api.serverboi.org > ~/autowgc.sh
 sudo bash ~/autowgc.sh
 ```
 ## Syntax:
-sudo bash ~/autowgc	  [ -a 'file' | -s   | -h   ]
+sudo bash ~/autowgc	  [ 	-h  	| -a `<file>` |  -s  	 ]
 
 ## Flags:
+ -h           	Shows command syntax and other info.
+
  -a  `file`  Add a wireguard client config file or ommit the `file` to start an already added connection. `file` Should be the location of a valid wireguard config:
  
 ```bash
 sudo ~/autowgc -a /file.conf
 ```
- 
+
  -s           	Stop the wireguard VPN easily.
- 
- -h           	Shows command syntax and other info.
 
 <br>
 
