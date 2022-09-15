@@ -205,7 +205,5 @@ system($sudo bash autowgc -a <file>);
 ```
 {: file='/program.pl'}
 
-<br>
-
 ---
 {% include giscus.html %}
