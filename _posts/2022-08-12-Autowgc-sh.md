@@ -206,4 +206,7 @@ system($sudo bash autowgc -a <file>);
 {: file='/program.pl'}
 
 ---
+
+> Edit this page's <a href="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/{{page.path}}">markdown</a> on github.
+
 {% include giscus.html %}
