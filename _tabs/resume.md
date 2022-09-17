@@ -3,7 +3,63 @@ title: Resume
 icon: fas fa-user
 order: 4
 ---
-{% include resume.html %}
+<style>
+  .fade-in {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+.fade-in1 {
+  animation: fadeIn 1.5s;
+  -webkit-animation: fadeIn 1.5s;
+  -moz-animation: fadeIn 1.5s;
+  -o-animation: fadeIn 1.5s;
+  -ms-animation: fadeIn 1.5s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: skew(5deg, 5deg); }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+h1.dynamic-title {
+  visibility: hidden;
+  display: none;
+}
+#head-info {
+  line-height: 0.5rem;
+}
+h4 {
+  font-weight: unset;
+      display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+</style>
+<div id=head-info><div class=fade-in><h2>Jakob D Turner</h2></div> <div class=fade-in1><b><h3>Information Systems Administrator</h3></b> <h4>Denver, CO</h4> <b><h4><a href=mailto:Jake@serverboi.org>Jake@serverboi.org</a></h4></b> <h4> https://serverboi.org</h4></div> <hr></div> <div class=fade-in><ul type=filled-circle><li> Frequently involved in projects with local and remote teams to provide quality of service and meet compliance goals. Knowledgeable in change management, ticketing systems, office 365, network configurations, Active Directory, GNU+Linux and Windows Server environments. </li> <br><li> Specializing in configuration, deployment, monitoring, diagnostics, and continuous support of Rack-mount, Desktop, IOT/Network, and Mobile devices/systems. <br><li>Knowledgeable in providing support for Win 10/11, OSX, iOS, Android, Windows Server 2012-2019, Linux Server, and enterprise routing systems. (CISCO, Ubiquti, Juniper)<br> <br><li> Clear understanding of network tools, TCP/IP, Command Line, DHCP, JAMF, DNS, remote administration (SSH, VNC, RSAT), system deployment, Active Directory, and cloud versus on-premises software solutions </ul> <b><h3>Authorized to work in the US for any employer</h3></b></div> <div><hr> <div class=fade-in><h2>Work Experience:</h2> <b><h3>Home Server Administrator -</h3></b></div> <div class=fade-in1><ul type=filled-circle><li> Setup and maintained core infrastructure for https://serverboi.org, completed hardware and software inventory as to create a successful operating environment as to mimic an enterprise Deployment. <li> Maintained systems via updates, patches, drivers and kernel releases. Setup and used Active Directory, Domain controller, and other tools to support on premises machines for dedicated 24/7/365 services on a CLI only (headless) server environment. </ul></div> <hr> <div class=fade-in><h2>Skills:</h2></div> <div class=fade-in1><ul type=filled-circle><li> Account Administration <li> Software / Hardware Support <li> Remote / local Administration <li> Customer Service / Executive support <li> Active Directory / Group Management <li> Microsoft Windows 10 / 11 <li> Microsoft Windows Server Management <li> GNU+Linux File-System / BASH Shell <li> Containerization / Virtualization <li> Web Application Development</ul><hr></div> <div class=fade-in><h2>Education:</h2> <div><div class=fade-in1><p>Diploma, Greeley West High School (2021) <p>Studying Computer Information Systems (CIS AAS), Full-Stack web development certificate, and Network Analysis certificate at Aims Community College. (2021-present)</div></div></div></div>
+
 
 
 
