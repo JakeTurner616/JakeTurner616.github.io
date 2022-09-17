@@ -29,6 +29,7 @@ https://serverboi.org
 • Setup and maintained core infrastructure for https://serverboi.org, completed hardware and
 software inventory as to create a successful operating environment as to mimic an enterprise
 Deployment.
+
 • Maintained systems via updates, patches, drivers and kernel releases. Setup and used Active
 Directory, Domain controller, and other tools to support on premises machines for dedicated
 24/7/365 services on a CLI only (headless) server environment.
