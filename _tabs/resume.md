@@ -10,9 +10,12 @@ h1.dynamic-title {
   visibility: hidden;
   display: none;
 }
+#core-wrapper > div > div > p:nth-child(2) > strong {
+    font-size: 22px;
+}  
 </style>
 
-**Jakob D Turner - Information Systems Administrator**
+**Jakob D Turner**
 
 Denver, CO
 
