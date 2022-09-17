@@ -14,14 +14,14 @@ date: 2022-08-08 1:30:00 -0500
 ```bash
 sudo wget -qO - api.serverboi.org > ~/autowgc.sh
 ```
-### Execute:
+## Execute:
 ```bash
 sudo bash ~/autowgc.sh
 ```
 ## Syntax:
 sudo bash ~/autowgc [-h |-a `file` |-s ]
 
-### Flags:
+## Flags:
  -h           	Shows command syntax and other info.
 
  -a  `file`  Add a wireguard client config file or ommit the `file` to start an already added connection. `file` Should be the location of a valid wireguard config:
@@ -138,7 +138,7 @@ exit 0
 
 ---
 <br>
-### Execute within C:
+## Execute within C:
 ```c
 #include <stdlib.h>
 
@@ -177,7 +177,7 @@ public string RunCommandWithBash(sudo bash ~/autowgc)
 ```
 {: file='~/program.cs'}
 
-### Execute within Perl:
+## Execute within Perl:
 ```perl
 $command="ls /";
 system($sudo bash autowgc -a <file>);
