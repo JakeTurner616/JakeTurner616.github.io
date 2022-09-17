@@ -26,27 +26,6 @@ sudo bash ~/autowgc [-h |-a `file` |-s ]
 
  -a  `file`  Add a wireguard client config file or ommit the `file` to start an already added connection. `file` Should be the location of a valid wireguard config:
 
-```plaintext
-[Interface]
-
-Address = 10.0.0.2/24
-
-ListenPort = 51820
-
-PrivateKey = {client private key}
-
-
-
-[Peer]
-
-PublicKey = {server public key}
-
-AllowedIPs = 0.0.0.0/0, ::/0
-
-Endpoint = {myserver}:51820
-
-```
-{: file='/file.conf'}
 ```bash
 sudo ~/autowgc -a /file.conf
 ```
