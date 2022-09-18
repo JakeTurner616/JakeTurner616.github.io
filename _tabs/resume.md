@@ -6,6 +6,10 @@ order: 4
 ---
 
 <style>
+i.fas.fa-hashtag {
+    visibility: hidden;
+    display: none;
+}
 h1.dynamic-title {
   visibility: hidden;
   display: none;
