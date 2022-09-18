@@ -36,7 +36,7 @@ Directory, Domain controller, and other tools to support on premises machines fo
 
 ---
 ## Skills:
-• Account Administration
+Account Administration
 • Software / Hardware Support
 • Remote / local Administration
 • Customer Service / Executive support
