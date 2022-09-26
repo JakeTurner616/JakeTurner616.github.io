@@ -4,9 +4,6 @@
 [![fileserver](https://img.shields.io/website?down_color=red&down_message=offline&label=file%20server&up_color=brightgreen&up_message=online&url=https://od.serverboi.org)](https://serverboi.org/megaromserver)
 [![uptimeserver](https://img.shields.io/website?down_color=red&down_message=offline&label=Uptime%20monitor&up_color=brightgreen&up_message=online&url=https://status.serverboi.org)](https://status.serverboi.org)
 
-
-
-
 ## About
 This is a simple documentation site for [my github repositories](https://github.com/JakeTurner616?tab=repositories). This website is 100% open source. Create a [PR](https://github.com/JakeTurner616/JakeTurner616.github.io/pulls)?
 
@@ -16,5 +13,9 @@ This site uses [Jekyll](https://jekyllrb.com/) for static site generation and Gi
 [![Automatic build](https://github.com/JakeTurner616/JakeTurner616.github.io/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/JakeTurner616/JakeTurner616.github.io/actions/workflows/pages-deploy.yml)
 
 This site uses the Jekyll theme [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/). See the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+
+## VScode
+[![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-Visal%20Studio%20Code-blue?style=for-the-badge&logo=visualstudiocode)](https://open.vscode.dev/your-github-username/your-repository-name)
+
 ## License
 This work is published under [GNU GPL](https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/LICENSE.md) License.
