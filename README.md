@@ -14,8 +14,5 @@ This site uses [Jekyll](https://jekyllrb.com/) for static site generation and Gi
 
 This site uses the Jekyll theme [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/). See the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
-## VScode
-[![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-Visal%20Studio%20Code-blue?style=for-the-badge&logo=visualstudiocode)](https://open.vscode.dev/JakeTurner616/JakeTurner616.github.io)
-
 ## License
 This work is published under [GNU GPL](https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/LICENSE.md) License.
