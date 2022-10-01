@@ -39,10 +39,8 @@
       height: 0px;
     }
     #me > span:nth-child(1) > div:nth-child(1) > p:nth-child(1) {
-    padding-left: 20px;
-    line-height: 1.5;
-    margin: unset;
-    width: auto;
+    display: none;
+    visibility: hidden;
     }
     .site-title > a:nth-child(1) {
       padding-left: 10px;
@@ -54,6 +52,28 @@
       visibility: hidden;
       display: none;
     }
+.profile-wrapper > center:nth-child(3){
+      visibility: hidden;
+    position: relative;
+  height:  60px;
+}
+.profile-wrapper > center:nth-child(3):after {
+  height:  60px;
+  margin: 20px;
+  visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Seld-hosting, programming, and documentation.";
+    color: #AFB0B1;
+    cursor: text;
+}
+.site-title {
+  padding: 8px;
+}
+.w-100 {
+  margin-top: 60px;
+}
    </style> 
 <html>
   <center>
