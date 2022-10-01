@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 comments: false
 pin: true
 title: "Megaromserver - Shareware and Abandonware for Emulation"
