@@ -1,13 +1,13 @@
 <body>
 <h1 data-toc-skip="">Stable Diffusion WebUI</h1>
-resizer { display:flex; margin:0; padding:0; resize:vertical; overflow:hidden }
+<style>
+ .resizer { display:flex; margin:0; padding:0; resize:vertical; overflow:hidden; max-height:2500px;}
 .resizer > .resized { flex-grow:1; margin:0; padding:0; border:0 }
-.resizer {max-width: width="96%"; }
-.ugly { background:red; }
 
+.ugly { height:2000px; background:transparent; border:1px solid black; }
+</style>
 <div class="resizer ugly">
-  <iframe class="resized" name="status" id="status" src="https://ai.serverboi.org" allowfullscreen="" scrolling="no" width="96%" height="2000px" frameborder="0">
-</iframe>
+ <iframe class="resized" name="status" id="status" src="https://ai.serverboi.org" allowfullscreen="" scrolling="no" width="96%" height="auto" frameborder="0">
 </div>
 
   </div>
