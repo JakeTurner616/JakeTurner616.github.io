@@ -1,7 +1,6 @@
 ---
 layout: page
 comments: false
-pin: true
 title: "Stable Diffusion WebUI"
 redirect_from:
   - /AI/
