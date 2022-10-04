@@ -1,6 +1,13 @@
+<h1 class="dynamic-title">Stable Diffusion WebUI: </h1>
 <p>Self-hosted fully-integrated and easy way to work with Stable Diffusion right from a browser window. Has access to all upscaling models, including LSDR with Dynamic prompt entry.</p>
 <body>
 <style>
+  @media (max-width: 1000px) {
+
+        .resizer {
+          width: 335px !important;
+    }
+}
   .ugly {
   margin-bottom: 240px !important;
   }
@@ -8,7 +15,7 @@
   visibility: hidden;
   display: none;
 }
- .resizer { display:flex; margin:0; padding:0; resize:vertical; overflow:hidden; max-height:2900px; min-height:710px;}
+ .resizer { display:flex; margin:0; padding:0; resize:vertical; overflow:hidden; max-height:3555px; min-height:710px;}
 .resizer > .resized { flex-grow:1; margin:0; padding:0; border:0 }
 
 .ugly { height:710px; background:transparent; border:1px solid black; }
@@ -19,5 +26,14 @@
 </div>
 
   </div>
+  <noscript>
+  <style>
+    @media (hover: none)  {
+        div.flex:nth-child(4) {
+          
+    }
+}
+    </style>
+  </noscript>
 </body>
 
