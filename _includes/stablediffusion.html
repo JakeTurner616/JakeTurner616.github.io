@@ -1,41 +1,61 @@
-<h1 class="dynamic-title">Stable Diffusion WebUI: </h1>
-<p>Self-hosted fully-integrated and easy way to work with Stable Diffusion right from a browser window. Has access to all upscaling models, including LSDR with Dynamic prompt entry.</p>
-  <noscript>
+<h1 class="dynamic-title">Stable Diffusion WebUI: 
+</h1>
+<p>Self-hosted fully-integrated and easy way to work with Stable Diffusion right from a browser window. Has access to all upscaling models, including LSDR with Dynamic prompt entry.
+</p>
+<noscript>
   <style>
-#status {
-  visibility: hidden;
-  display: none;
-}
-    </style>
-    <h5>This page requires JavaScript. <a href="https://serverboi.org/ai">Retry ↻</a>. </h5>
-  </noscript>
-
-<body>
-<style>
-  @media (max-width: 800px) {
-
-        .resizer {
-          width: 335px !important;
-          min-height: 5000px !important;
+    .resizer {
+      visibility: hidden;
+      display: none;
     }
-}
-  .ugly {
-  margin-bottom: 240px !important;
-  }
-  p {
-  visibility: hidden;
-  display: none;
-}
- .resizer { display:flex; margin:0; padding:0; resize:vertical; overflow:hidden; max-height:4000px; min-height:710px;}
-.resizer > .resized { flex-grow:1; margin:0; padding:0; border:0 }
-
-.ugly { height:710px; background:transparent; border:1px solid black; }
-</style>
-<div class="resizer ugly" style="width: 750px;">
-  
- <iframe class="resized" name="status" id="status" src="https://ai.serverboi.org" allowfullscreen="" scrolling="no" height="auto" frameborder="0">
-</div>
-
+    #status {
+      visibility: hidden;
+      display: none;
+    }
+  </style>
+  <h5>This page requires JavaScript. 
+    <a href="https://serverboi.org/ai">Retry ↻
+    </a>. 
+  </h5>
+</noscript>
+<body>
+  <style>
+    @media (max-width: 800px) {
+      .resizer {
+        width: 335px !important;
+        min-height: 5000px !important;
+      }
+    }
+    .ugly {
+      margin-bottom: 240px !important;
+    }
+    p {
+      visibility: hidden;
+      display: none;
+    }
+    .resizer {
+      display:flex;
+      margin:0;
+      padding:0;
+      resize:vertical;
+      overflow:hidden;
+      max-height:4000px;
+      min-height:710px;
+    }
+    .resizer > .resized {
+      flex-grow:1;
+      margin:0;
+      padding:0;
+      border:0 }
+    .ugly {
+      height:710px;
+      background:transparent;
+      border:1px solid black;
+    }
+  </style>
+  <div class="resizer ugly" style="width: 750px;">
+    <iframe class="resized" name="status" id="status" src="https://ai.serverboi.org" allowfullscreen="" scrolling="no" height="auto" frameborder="0">
+      </div>
   </div>
 </body>
 
