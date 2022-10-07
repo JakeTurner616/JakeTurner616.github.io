@@ -8,6 +8,11 @@ redirect_from:
   - /reboot-to-UEFI/
   - /reboot-to-uefi/
 date: 2022-10-06 1:30:00 -0500
+image:
+  path: /assets/img/Asrock-Restart-to-UEFI.png
+  width: 452
+  height: 262
+  alt: Asrock Restart to UEFI
 ---
 # reboot-to-bios
 
