@@ -57,4 +57,10 @@ Or clone/copy contents of `reboot-to-bios.sh` into a file with a `.sh` file exte
 
 - Update Linux version to detect the active init system being used as to support more distros.
 
+---
+
+> Edit this page's <a href="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/{{page.path}}">markdown</a> on github.
+
+---
+
 {% include giscus.html %}
