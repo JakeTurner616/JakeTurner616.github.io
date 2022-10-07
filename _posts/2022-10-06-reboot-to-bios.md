@@ -9,7 +9,7 @@ redirect_from:
   - /reboot-to-uefi/
 date: 2022-10-06 1:30:00 -0500
 image:
-  path: /commons/Asrock-Restart-to-UEFI.png
+  path: raw.githubusercontent.com/JakeTurner616/JakeTurner616.github.io/main/commons/Asrock-Restart-to-UEFI.jpg
   width: 452
   height: 262
   alt: Asrock Restart to UEFI
