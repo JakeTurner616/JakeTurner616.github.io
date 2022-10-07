@@ -1,0 +1,50 @@
+
+<body>
+    <style>
+        #aniframeupstart {
+            position: absolute;
+            margin-top: 20px;
+          }
+          nobr:hover, #hideiframe > nobr:nth-child(1):hover, #viewiframe:hover {
+            cursor: pointer;
+          }
+    </style>
+    <div 
+id="aniframeupstart" 
+align="center" 
+style="display: none;">
+<iframe 
+src="https://serverboi.org/RepackList.txt" 
+margin="10" 
+border="1" 
+scrollbars="auto" width="100%" 
+height="100%">
+</iframe>
+</div>
+
+<span 
+id="viewiframe" 
+onclick="DoViewIFRAME('viewiframe','hideiframe','aniframeupstart');" >
+
+<nobr>[Toggle RepackList]</nobr>
+</span>
+<span 
+id="hideiframe" 
+onclick="DoHideIFRAME('hideiframe','aniframeupstart','viewiframe');" 
+style="display: none;  
+   color: black;">
+<nobr>[Toggle RepackList]</nobr>
+</span>
+<script>   
+function DoViewIFRAME(tid1,tid2,tid3) {
+    document.getElementById(tid1).style.display = "none";
+    document.getElementById(tid2).style.display = "";
+    document.getElementById(tid3).style.display = "";
+    }
+    function DoHideIFRAME(tid1,tid2,tid3) {
+    document.getElementById(tid1).style.display = "none";
+    document.getElementById(tid2).style.display = "none";
+    document.getElementById(tid3).style.display = "";
+    }
+</script>
+</body>
