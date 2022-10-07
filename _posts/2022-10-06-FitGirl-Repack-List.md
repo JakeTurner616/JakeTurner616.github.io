@@ -10,7 +10,6 @@ redirect_from:
   - /fg
 date: 2022-10-06 1:30:00 -0500
 ---
-{% include RepackList.html %}
 
 # FitGirl-Repack-List
 
