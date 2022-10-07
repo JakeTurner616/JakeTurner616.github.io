@@ -39,18 +39,20 @@ wget https://raw.github.com/JakeTurner616/reboot-to-bios/main/reboot-to-bios.sh 
 
 Or clone/copy contents of `reboot-to-bios.sh` into a file with a `.sh` file extension, then run it as a privledged user.
 
+---
+
 # Limitations:
 
-Script must be ran as privledged user - Will return an error otherwise.
+- Script must be ran as privledged user - Will return an error otherwise.
 
 
-Might not work for certian motherboards with fast-boot / ultra-fast-boot on Windows.
+- Might not work for certian motherboards with fast-boot / ultra-fast-boot on Windows.
 
 
-Might not work with some configurations of Windows fast-startup.
+- Might not work with some configurations of Windows fast-startup.
 
 
-Uses systemctl only on Linux as of now - Requires systemd as init system.
+- Uses systemctl only on Linux as of now - Requires systemd as init system.
 
 # Future ideas:
 
