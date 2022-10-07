@@ -10,10 +10,9 @@ redirect_from:
   - /fg
 date: 2022-10-06 1:30:00 -0500
 ---
+{% include RepackList.html %}
 
 # FitGirl-Repack-List
-
-{% include RepackList.html %}
 
 Unofficial FitGirl [Repack List](https://serverboi.org/RepackList.txt) and associated web-scrape scripts for either RepackList [updating](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/RepackUpdater.sh) or [updating + magnet extraction](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/script.sh) 
 
