@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "reboot-to-bios - A simple batch and bash file to act as a clone of ASROCK reboot to uefi, but for non ASROCK motherboards."
+title: "reboot-to-bios - A simple batch / bash file to act as a clone of ASROCK reboot to UEFI"
 redirect_from:
   - /reboot-to-bios/
   - /reboot-to-BIOS/
@@ -11,7 +11,7 @@ date: 2022-10-06 1:30:00 -0500
 ---
 # reboot-to-bios
 
-A simple batch and bash file to act as a clone of ASROCK reboot to bios, but for non ASROCK motherboards. 
+A simple batch / bash file to act as a clone of ASROCK reboot to UEFI, but for non ASROCK motherboards. 
 
 # Usage (Windows):
 
