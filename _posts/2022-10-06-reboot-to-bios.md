@@ -12,7 +12,7 @@ image:
   path: commons/Asrock-Restart-to-UEFI.jpg
   width: 452
   height: 262
-  alt: Asrock Restart to UEFI
+  alt: ASRock Restart to UEFI
 ---
 # reboot-to-uefi
 
