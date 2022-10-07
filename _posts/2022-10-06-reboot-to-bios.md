@@ -14,9 +14,9 @@ image:
   height: 262
   alt: Asrock Restart to UEFI
 ---
-# reboot-to-bios
+# reboot-to-uefi
 
-A simple batch / bash file to act as a clone of ASROCK reboot to UEFI, but for non ASROCK motherboards. 
+[reboot-to-uefi](https://github.com/JakeTurner616/reboot-to-uefi) is a simple batch / bash script to act as a clone of ASROCK reboot to UEFI, but for non ASROCK motherboards. 
 
 # Usage (Windows):
 
