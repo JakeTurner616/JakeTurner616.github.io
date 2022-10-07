@@ -15,7 +15,7 @@ date: 2022-10-06 1:30:00 -0500
 Unofficial FitGirl [Repack List](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/RepackList.txt) and associated web-scrape scripts for either RepackList [updating](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/RepackUpdater.sh) or [updating + magnet extraction](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/script.sh) 
 
 # RepackUpdater.sh 
-![RepackUpdater.sh](./RepackUpdater.sh) simply creates an updated RepackList.txt file and places it into the scripts' working directory. 
+![RepackUpdater.sh](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/RepackUpdater.sh) simply creates or updates a RepackList.txt file in the scripts' working directory. 
 
 # script.sh 
 `script.sh` is a web-scraper that has two purposes, and is divided into two parts:
