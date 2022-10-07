@@ -1,58 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
 <body>
-    <style>
-        #aniframeupstart {
-            position: absolute;
-            padding: 20px;
-          }
-          nobr:hover, #hideiframe > nobr:nth-child(1):hover, #viewiframe:hover {
-            cursor: pointer;
-          }
-    </style>
-    <div 
-id="aniframeupstart" 
-align="center" 
-style="display: none;">
-<iframe 
-src="https://serverboi.org/RepackList.txt" 
-margin="10" 
-border="1" 
-scrollbars="auto" width="250px" 
-height="500px">
-</iframe>
-</div>
-
-<span 
-id="viewiframe" 
-onclick="DoViewIFRAME('viewiframe','hideiframe','aniframeupstart');" >
-
-<nobr>[Toggle RepackList]</nobr>
-</span>
-<span 
-id="hideiframe" 
-onclick="DoHideIFRAME('hideiframe','aniframeupstart','viewiframe');" 
-style="display: none;  
-   color: black;">
-<nobr>[Toggle RepackList]</nobr>
-</span>
-<script>   
-function DoViewIFRAME(tid1,tid2,tid3) {
-    document.getElementById(tid1).style.display = "none";
-    document.getElementById(tid2).style.display = "";
-    document.getElementById(tid3).style.display = "";
-    }
-    function DoHideIFRAME(tid1,tid2,tid3) {
-    document.getElementById(tid1).style.display = "none";
-    document.getElementById(tid2).style.display = "none";
-    document.getElementById(tid3).style.display = "";
-    }
+<script>
+  $(document).ready(function(){
+    $("#status").hide();
+    $("#Link").click(function(){
+       $("#linkDiv").hide();
+       $("#status").show()
+        return false;
+    });
+});
 </script>
+        <div id="linkDiv">
+       <center>
+      <a href=
+"https://serverboi.org/RepackList.txt" target="status" id="Link">
+        Show repack list
+      </a>
+       </center>
+        </div>
+  <noscript>
+    <style>
+      #linkDiv{
+      visibility: hidden;
+      display: none;
+      }
+      .status-div {
+      visibility: hidden;
+        display: none;
+      }
+       #status {
+       overflow: hidden;    
+      }   
+      </style>
+    </noscript>
+  <div class="status-div">
+        <iframe loading="lazy" name="status" id="status" src="https://serverboi.org/RepackList.txt" height="645px" width="100%" allowfullscreen="" frameborder="0" scrolling="no">
+        </iframe>
+ </div>   
 </body>
-</html>
