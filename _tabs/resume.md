@@ -21,22 +21,11 @@ h1.dynamic-title {
 
 **Jakob D Turner**
 
-<svg class="octicon octicon-location" viewBox="0 0 16 16" version="1.1" width="17" height="16" aria-hidden="true" fill="rgb(175, 176, 177)"><path fill-rule="evenodd" d="M11.536 3.464a5 5 0 010 7.072L8 14.07l-3.536-3.535a5 5 0 117.072-7.072v.001zm1.06 8.132a6.5 6.5 0 10-9.192 0l3.535 3.536a1.5 1.5 0 002.122 0l3.535-3.536zM8 9a2 2 0 100-4 2 2 0 000 4z" ></path></svg>
-        <span class="p-label" > Denver, CO</span>
-</li>
-<style>
-  li.vcard-detail:nth-child(1) {
-  
-float: left;
-text-align: center;
-
-
-}
-  </style>
+<svg aria-hidden=true class="octicon octicon-location"fill="rgb(175, 176, 177)"height=16 version=1.1 viewBox="0 0 16 16"width=17><path d="M11.536 3.464a5 5 0 010 7.072L8 14.07l-3.536-3.535a5 5 0 117.072-7.072v.001zm1.06 8.132a6.5 6.5 0 10-9.192 0l3.535 3.536a1.5 1.5 0 002.122 0l3.535-3.536zM8 9a2 2 0 100-4 2 2 0 000 4z"fill-rule=evenodd></path></svg> <span class=p-label>Denver, CO</span><style>li.vcard-detail:nth-child(1){float:left;text-align:center}</style>
 
 <a href="mailto:Jake@serverboi.org">Jake@serverboi.org</a>
 
-https://serverboi.org
+<a href="https://serverboi.org">https://serverboi.org</a>
 
 ---
 ## Work Experience:
