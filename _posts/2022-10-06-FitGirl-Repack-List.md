@@ -13,7 +13,7 @@ date: 2022-10-06 1:30:00 -0500
 
 # FitGirl-Repack-List
 
-Unofficial FitGirl [Repack List](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/RepackList.txt) and associated web-scrape scripts for either RepackList [updating](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/RepackUpdater.sh) or [updating + magnet extraction](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/script.sh) 
+Unofficial FitGirl [Repack List](https://files.serverboi.org/s/RepackList.txt) and associated web-scrape scripts for either RepackList [updating](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/RepackUpdater.sh) or [updating + magnet extraction](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/script.sh) 
 
 # RepackUpdater.sh 
 [RepackUpdater.sh](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/RepackUpdater.sh) simply creates or updates a RepackList.txt file in the scripts' working directory. 
