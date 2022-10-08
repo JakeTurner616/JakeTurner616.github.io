@@ -19,9 +19,9 @@ h1.dynamic-title {
 }  
 </style>
 
-{% include location.html %} **Jakob D Turner**
+**Jakob D Turner**
 
-Denver, CO
+{% include location.html %} Denver, CO
 
 <a href="mailto:Jake@serverboi.org">Jake@serverboi.org</a>
 
