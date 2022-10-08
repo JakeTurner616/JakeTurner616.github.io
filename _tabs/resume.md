@@ -19,7 +19,7 @@ h1.dynamic-title {
 }  
 </style>
 
-**Jakob D Turner**
+{% include location.html %} **Jakob D Turner**
 
 Denver, CO
 
