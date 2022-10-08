@@ -50,6 +50,6 @@ Account Administration
 
 ---
 ## Education:
-Diploma, Greeley West High School (2021) •  
-Studying Computer Information Systems (CIS AAS), Full-Stack web development certificate, and 
+Diploma, Greeley West High School (2021)  
+Studying Computer Information Systems (CIS AAS), Full-Stack web development certificate, and
 Network Analysis certificate, Aims Community College. (2021-present)
