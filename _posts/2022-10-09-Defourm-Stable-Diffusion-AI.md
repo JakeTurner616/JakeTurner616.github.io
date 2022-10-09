@@ -6,7 +6,7 @@ redirect_from:
   - /Defourm-Stable-Diffusion-AI/
 date: 2022-10-9 1:30:00 -0500
 ---
-
+<content id="meta"></content>
 <center>
 <video id="video1" width="512px" height="100%;" controls autoplay loop muted="muted">
   <source src="https://thumbs.gfycat.com/AjarEmbellishedElephant-mobile.mp4" type="video/mp4">
@@ -25,13 +25,15 @@ video#video:hover {
 }
 </style>
   
+---
+  
 # Simple Deforum setup and config:
 
 Download the latest Stable Diffusion `.ckpt` [model](https://cyberes.github.io/stable-diffusion-models/#models) and place it in `/AI/models/` in the root of your google drive.
 
-# Motion parameters Config:
+## Motion parameters Config:
 
-Motion parameters [collab](https://colab.research.google.com/github/pharmapsychotic/ai-notebooks/blob/main/pharmapsychotic_AnimationPreview.ipynb#scrollTo=Gkc0gKf1q7ha)
+Motion parameters [collab](https://colab.research.google.com/github/pharmapsychotic/ai-notebooks/blob/main/pharmapsychotic_AnimationPreview.ipynb#scrollTo=Gkc0gKf1q7ha).
 
 
 1. Change animation mode to either 2D or 3D.
@@ -42,9 +44,9 @@ Motion parameters [collab](https://colab.research.google.com/github/pharmapsycho
 
 Now we have motion parameters ready to be pasted into defourm:
 
-# Deforum Config:
+## Deforum Config:
 
-Defourm [collab](https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb#scrollTo=qH74gBWDd2oq)
+Defourm [collab](https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb#scrollTo=qH74gBWDd2oq).
 
 1. Change animation mode to the one used earlier.
 
