@@ -24,7 +24,7 @@ video#video:hover {
   cursor: pointer;
 }
 </style>
-  
+</html>  
 ---
   
 # Simple Deforum setup and config:
