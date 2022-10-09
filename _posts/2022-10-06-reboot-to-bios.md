@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "reboot-to-bios - A simple batch / bash file to act as a clone of ASROCK reboot to UEFI"
+title: "reboot-to-bios - A simple batch / bash file to act as a clone of ASROCK restart to UEFI"
 redirect_from:
   - /reboot-to-bios/
   - /reboot-to-BIOS/
