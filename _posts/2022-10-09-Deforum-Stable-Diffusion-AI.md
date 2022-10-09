@@ -1,9 +1,11 @@
 ---
 layout: post
 comments: true
-title: "AI generated videos using Defourm Stable-Diffusion"
+title: "AI generated videos using Deforum Stable-Diffusion"
 redirect_from:
-  - /Defourm-Stable-Diffusion-AI/
+  - /Deforum-Stable-Diffusion-AI/
+  - /Deforum/
+  - /deforum/
 date: 2022-10-9 1:30:00 -0500
 ---
 <content id="meta">Simple Deforum setup for creating 2D or 3D videos or animations with AI.</content>
@@ -43,7 +45,7 @@ Motion parameters [collab](https://colab.research.google.com/github/pharmapsycho
 
 1. Change animation mode to either 2D or 3D.
 2. Turn up wiggle frames to 3000.
-3. Change init image to an image file to use as a reference for creating the animation.
+3. Change `init_image` to an image file to use as a reference for creating the animation.
 
 `Runtime` > `Run all`
 
@@ -51,13 +53,13 @@ Now we have motion parameters ready to be pasted into defourm:
 
 ## Deforum Config:
 
-Defourm [collab](https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb#scrollTo=qH74gBWDd2oq).
+Deforum [collab](https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb#scrollTo=qH74gBWDd2oq).
 
-1. Change animation mode to the one used earlier.
+1. Change animation mode to the one used earlier (2D or 3D).
 
 2. In the Animation Settings section, paste in motion parameters from the motion preview from `angle` - `rot_3d_z`.
 
-3. Set custom strength_schedule parameter as: `0: (.1*(sin(t/20)+ 5))`.
+3. Set `strength_schedule` parameter as: `0: (.1*(sin(t/20)+ 5))`.
 
 4. Set animation prompts, prompt weights, and width/height of each image. 
 
