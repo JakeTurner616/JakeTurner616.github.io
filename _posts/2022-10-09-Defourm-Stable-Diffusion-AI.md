@@ -8,7 +8,7 @@ date: 2022-10-9 1:30:00 -0500
 ---
 
 <center>
-<video id="video1" width="512px" height="100%;" controls autoplay loop>
+<video id="video1" width="512px" height="100%;" controls autoplay loop muted="muted">
   <source src="https://thumbs.gfycat.com/AjarEmbellishedElephant-mobile.mp4" type="video/mp4">
   Your browser probably does not support video tags.
 </video> 
@@ -23,14 +23,8 @@ video#video:hover {
   
   cursor: pointer;
 }
-<style>
-  <script> 
-    document.getElementById('video1').play(); 
-</script> 
   
-# Simple Deforum setup and config:  
-  
-## Pre-setup:
+# Simple Deforum setup and config:
 
 Download the latest Stable Diffusion `.ckpt` [model](https://cyberes.github.io/stable-diffusion-models/#models) and place it in `/AI/models/` in the root of your google drive.
 
