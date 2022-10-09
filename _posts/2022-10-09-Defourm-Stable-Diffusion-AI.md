@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "AI generated vidoes using Defourm Stable-Diffusion"
+title: "AI generated videos using Defourm Stable-Diffusion"
 redirect_from:
   - /Defourm-Stable-Diffusion-AI/
 date: 2022-10-9 1:30:00 -0500
