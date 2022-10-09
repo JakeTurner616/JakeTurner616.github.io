@@ -4,7 +4,7 @@ comments: true
 title: "AI generated vidoes using Defourm Stable-Diffusion"
 redirect_from:
   - /Defourm-Stable-Diffusion-AI/
-date: 2022-10-10 
+date: 2022-10-9 1:30:00 -0500
 ---
 
 <img src="https://im3.ezgif.com/tmp/ezgif-3-d124054ee9.mp4">
