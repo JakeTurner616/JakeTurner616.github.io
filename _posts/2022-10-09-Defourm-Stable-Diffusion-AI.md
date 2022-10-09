@@ -24,9 +24,9 @@ video#video:hover {
   cursor: pointer;
 }
 </style>
-</html>  
+</center>
+
 ---
-  
 # Simple Deforum setup and config:
 
 Download the latest Stable Diffusion `.ckpt` [model](https://cyberes.github.io/stable-diffusion-models/#models) and place it in `/AI/models/` in the root of your google drive.
