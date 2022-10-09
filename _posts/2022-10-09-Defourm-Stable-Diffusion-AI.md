@@ -6,7 +6,7 @@ redirect_from:
   - /Defourm-Stable-Diffusion-AI/
 date: 2022-10-9 1:30:00 -0500
 ---
-<content id="meta"></content>
+<content id="meta">Simple Deforum Stable Diffusion setup for creating 2D and 3D AI generated animations and videos.</content>
 <center>
 <video id="video1" width="512px" height="100%;" controls autoplay loop muted="muted">
   <source src="https://thumbs.gfycat.com/AjarEmbellishedElephant-mobile.mp4" type="video/mp4">
@@ -22,6 +22,10 @@ border-left: solid black .4px;
 video#video:hover {
   
   cursor: pointer;
+}
+#meta{
+ visibility: hidden;
+ display: none;
 }
 </style>
 </center>
