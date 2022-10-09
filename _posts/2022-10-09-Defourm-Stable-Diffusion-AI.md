@@ -32,7 +32,7 @@ video#video:hover {
   
 ## Pre-setup:
 
-Download the latest Stable Diffusion `.cpkt` [model](https://cyberes.github.io/stable-diffusion-models/#models) and place it in `/AI/models/` in the root of your google drive.
+Download the latest Stable Diffusion `.ckpt` [model](https://cyberes.github.io/stable-diffusion-models/#models) and place it in `/AI/models/` in the root of your google drive.
 
 ## Motion parameters Config:
 
