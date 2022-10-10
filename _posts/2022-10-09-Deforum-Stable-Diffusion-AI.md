@@ -10,7 +10,6 @@ date: 2022-10-9 1:30:00 -0500
 ---
 <content id="meta">Simple Deforum setup for creating 2D or 3D videos or animations with AI.</content>
 <center>
-<body>
   <style>
 .slides {
     padding: 0;
@@ -172,7 +171,6 @@ input#img-3:checked ~ .nav-dots label#img-dot-3 {
       <label for="img-1" class="nav-dot" id="img-dot-1"></label>
       <label for="img-2" class="nav-dot" id="img-dot-2"></label>
       <label for="img-3" class="nav-dot" id="img-dot-3"></label>
-</body>
 </center>
 
 ---
