@@ -11,6 +11,10 @@ date: 2022-10-9 1:30:00 -0500
 <content id="meta">Simple Deforum setup for creating 2D or 3D videos or animations with AI.</content>
 <center>
   <style>
+   #meta {
+    visibility: hidden;
+    display: none;
+  }
   .slides {
     padding: 0;
     width: 512.5px;
