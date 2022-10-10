@@ -11,7 +11,7 @@ date: 2022-10-9 1:30:00 -0500
 <content id="meta">Simple Deforum setup for creating 2D or 3D videos or animations with AI.</content>
 <center>
   <style>
-.slides {
+  .slides {
     padding: 0;
     width: 512.5px;
     height: 295px;
@@ -19,22 +19,22 @@ date: 2022-10-9 1:30:00 -0500
     margin: 0 auto;
     position: relative;
     background-color: rgb(27, 27, 30);
-}
+  }
 
-.slides * {
+  .slides * {
     user-select: none;
     -ms-user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
     -webkit-touch-callout: none;
-}
+  }
 
-.slides input { display: none; }
+  .slides input { display: none; }
 
-.slide-container { display: block; }
+  .slide-container { display: block; }
 
-.slide {
+  .slide {
     top: 0;
     opacity: 0;
     width: 513px;
@@ -45,19 +45,19 @@ date: 2022-10-9 1:30:00 -0500
     transform: scale(0);
 
     transition: all .7s ease-in-out;
-}
+  }
 
-.slide img {
+  .slide img {
     width: 100%;
     height: 100%;
-}
+  }
 
-.nav label {
+  .nav label {
     width: 200px;
     height: 100%;
     display: none;
     position: absolute;
-	  opacity: 0;
+          opacity: 0;
     z-index: 9;
     cursor: pointer;
 
@@ -70,107 +70,87 @@ date: 2022-10-9 1:30:00 -0500
     font-family: "Varela Round", sans-serif;
     background-color: transparent;
     text-shadow: 0px 0px 15px rgb(119, 119, 119);
-}
+  }
 
-.slide:hover + .nav label { opacity: 0.0; }
+  .slide:hover + .nav label { opacity: 0.0; }
 
-.nav label:hover { opacity: 0.0; }
+  .nav label:hover { opacity: 0.0; }
 
-.nav .next { right: 0; }
+  .nav .next { right: 0; }
 
-input:checked + .slide-container  .slide {
+  input:checked + .slide-container  .slide {
     opacity: 1;
 
     transform: scale(1);
 
     transition: opacity 1s ease-in-out;
-}
+  }
 
-input:checked + .slide-container .nav label { display: block; }
+  input:checked + .slide-container .nav label { display: block; }
 
-.nav-dots {
-	width: 100%;
-	bottom: 9px;
-	height: 11px;
-	display: block;
-	position: absolute;
-	text-align: center;
-}
+  .nav-dots {
+        width: 100%;
+        bottom: 9px;
+        height: 11px;
+        display: block;
+        position: absolute;
+        text-align: center;
+  }
 
-.nav-dots .nav-dot {
-	top: -5px;
-	width: 11px;
-	height: 11px;
-	margin: 0 4px;
-	position: relative;
-	border-radius: 100%;
-	display: inline-block;
-	background-color: rgba(0, 0, 0, 0.6);
+  .nav-dots .nav-dot {
+        top: -5px;
+        width: 11px;
+        height: 11px;
+        margin: 0 4px;
+        position: relative;
+        border-radius: 100%;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.6);
   z-index: 12;
-}
+  }
 
-.nav-dots .nav-dot:hover {
-	cursor: pointer;
-	background-color: rgba(0, 0, 0, 0.8);
+  .nav-dots .nav-dot:hover {
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.8);
   z-index: 11;
   transform: scale(1.3);
-}
+  }
 
-input#img-1:checked ~ .nav-dots label#img-dot-1,
-input#img-2:checked ~ .nav-dots label#img-dot-2,
-input#img-3:checked ~ .nav-dots label#img-dot-3 {
+  input#img-1:checked ~ .nav-dots label#img-dot-1,
+  input#img-2:checked ~ .nav-dots label#img-dot-2,
+  input#img-3:checked ~ .nav-dots label#img-dot-3 {
   z-index: 10;
-	background: rgba(0, 0, 0, 0.8);
-}
-</style>
-<ul class="slides">
-    <input type="radio" name="radio-btn" id="img-1" checked />
+        background: rgba(0, 0, 0, 0.8);
+  }
+  </style>
+  <ul class="slides">
+    <input type="radio" name="radio-btn" id="img-1" checked>
     <li class="slide-container">
-		<div class="slide">
-			<video id="video1" width="512px" height="100%;" autoplay loop muted="muted">
-  <source src="https://thumbs.gfycat.com/VainAchingAmoeba-mobile.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> 
-        </div>
-		<div class="nav">
-			<label for="img-6" class="prev">&#x2039;</label>
-			<label for="img-2" class="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-2" />
+      <div class="slide">
+        <video id="video1" width="512px" height="100%;" autoplay="" loop="" muted="muted"><source src="https://thumbs.gfycat.com/VainAchingAmoeba-mobile.mp4" type="video/mp4"> Your browser does not support the video tag.</video>
+      </div>
+      <div class="nav">
+        <label for="img-6" class="prev">‹</label> <label for="img-2" class="next">›</label>
+      </div>
+    </li><input type="radio" name="radio-btn" id="img-2">
     <li class="slide-container">
-        <div class="slide">
-          <video id="video1" width="512px" height="100%;" autoplay loop muted="muted">
-  <source src="https://thumbs.gfycat.com/PlaintiveComfortableAngelwingmussel-mobile.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> 
-        </div>
-		<div class="nav">
-			<label for="img-1" class="prev">&#x2039;</label>
-			<label for="img-3" class="next">&#x203a;</label>
-		</div>
-    </li>
-
-    <input type="radio" name="radio-btn" id="img-3" />
+      <div class="slide">
+        <video id="video1" width="512px" height="100%;" autoplay="" loop="" muted="muted"><source src="https://thumbs.gfycat.com/PlaintiveComfortableAngelwingmussel-mobile.mp4" type="video/mp4"> Your browser does not support the video tag.</video>
+      </div>
+      <div class="nav">
+        <label for="img-1" class="prev">‹</label> <label for="img-3" class="next">›</label>
+      </div>
+    </li><input type="radio" name="radio-btn" id="img-3">
     <li class="slide-container">
-        <div class="slide">
-          <video id="video1" width="512px" height="100%;" autoplay loop muted="muted">
-  <source src="https://thumbs.gfycat.com/SplendidAptIndianpangolin-mobile.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> 
-        </div>
-        </div>
-		<div class="nav">
-			<label for="img-3" class="prev">&#x2039;</label>
-			<label for="img-1" class="next">&#x203a;</label>
-		</div>
+      <div class="slide">
+        <video id="video1" width="512px" height="100%;" autoplay="" loop="" muted="muted"><source src="https://thumbs.gfycat.com/SplendidAptIndianpangolin-mobile.mp4" type="video/mp4"> Your browser does not support the video tag.</video>
+      </div>
+      <div class="nav">
+        <label for="img-3" class="prev">‹</label> <label for="img-1" class="next">›</label>
+      </div>
     </li>
-
-    <li class="nav-dots">
-      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
-      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
-      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+    <li class="nav-dots"><label for="img-1" class="nav-dot" id="img-dot-1"></label> <label for="img-2" class="nav-dot" id="img-dot-2"></label> <label for="img-3" class="nav-dot" id="img-dot-3"></label></li>
+  </ul>
 </center>
 
 ---
