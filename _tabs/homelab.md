@@ -5,10 +5,10 @@ icon: fas fa-server
 order: 2
 ---
 
-![Desktop View](https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/assets/img/image1.jpg?raw=true){: width="972" height="589" }
+![Desktop View](https://files.serverboi.org/api/files/cat?path=%2FIMG_0515-min.JPG&share=img&size=1920){: width="972" height="589" }
 
+![Desktop View](https://files.serverboi.org/api/files/cat?path=%2Fimage0-min.jpg&share=img&size=1920){: width="972" height="589" }
 
-![Desktop View](https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/assets/img/image0.jpg?raw=true){: width="972" height="589" }
-
+![Desktop View](https://files.serverboi.org/api/files/cat?path=%2FIMG_0502-min.JPG&share=img&size=1920){: width="972" height="589" }
 
 {% include status.html %}
