@@ -8,7 +8,7 @@ redirect_from:
   - /deforum/
 date: 2022-10-9 1:30:00 -0500
 ---
-<content id="meta">Simple and quick Deforum setup for easily creating 2D or 3D animations for free with stable diffusion on google collab.</content>
+<content id="meta">Simple and quick Deforum setup for easily creating 2D or 3D animations for free with stable diffusion on google collab. Download the latest Stable Diffusion .ckpt model and place it in /AI/models/ in the root of your google drive.</content>
 <center>
   <style>
    #meta {
