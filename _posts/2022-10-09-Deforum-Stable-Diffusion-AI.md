@@ -8,7 +8,7 @@ redirect_from:
   - /deforum/
 date: 2022-10-9 1:30:00 -0500
 ---
-<content id="meta">Simple Deforum setup for creating 2D or 3D videos or animations with AI.</content>
+<content id="meta">Simple and quick Deforum setup for easily creating 2D or 3D animations for free with stable diffusion on google collab.</content>
 <center>
   <style>
    #meta {
@@ -131,7 +131,7 @@ date: 2022-10-9 1:30:00 -0500
     <input type="radio" name="radio-btn" id="img-1" checked>
     <li class="slide-container">
       <div class="slide">
-        <video id="video1" width="512px" height="100%;" autoplay="" loop="" muted="muted"><source src="https://thumbs.gfycat.com/VainAchingAmoeba-mobile.mp4" type="video/mp4"> Your browser does not support the video tag.</video>
+        <video id="video1" width="512px" height="100%;" autoplay="" loop="" muted="muted"><source src="https://thumbs.gfycat.com/VainAchingAmoeba-mobile.mp4" type="video/mp4"> The means in which this content is displayed is of an unsupported nature, try using a different browser or disabling content restrction extensions that block the html video tag</video>
       </div>
       <div class="nav">
         <label for="img-6" class="prev">‹</label> <label for="img-2" class="next">›</label>
