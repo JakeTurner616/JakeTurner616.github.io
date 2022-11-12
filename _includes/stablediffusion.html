@@ -11,8 +11,10 @@
 </noscript>
 <body>
  <script>
-    var url= "https://ai.serverboi.org";
-    window.location = url;
+      function redirectFunc() {
+        window.location.assign("https://ai.serverboi.org");
+      }
+      setTimeout("redirectFunc()", 10);
 </script>
 </body>
 
