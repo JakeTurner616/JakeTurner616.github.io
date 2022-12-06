@@ -26,7 +26,7 @@ sudo bash ~/autowgc.sh
 
 ## Syntax:
 
-```
+```syntax
 sudo bash ~/autowgc [-h |-a `file` |-s ]
 ```
 {: file='syntax'}
