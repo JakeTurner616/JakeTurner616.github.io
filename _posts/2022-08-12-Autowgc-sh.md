@@ -9,6 +9,7 @@ redirect_from:
   - /Autowgc.sh/
 date: 2022-08-08 1:30:00 -0500
 ---
+
 [Autowgc.sh](https://github.com/JakeTurner616/autowgc) is a wireguard client for linux written in bash/shell for automation of wireguard tunnels within a linux system. Allows for simple to advanced virtual networking setups to be created, called and then executed within C, bash, or perl.
 
 ## Download:
@@ -146,6 +147,7 @@ exit 0
 {: file='/autowgc.sh'}
 
 ---
+
 <br>
 
 ## Execute within C:
