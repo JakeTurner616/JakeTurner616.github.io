@@ -13,6 +13,3 @@ Megaromserver is a large collection of shareware, inactive, or otherwise abandon
 
 {% include megaromserver.html %}
 {% include readout.html %}
-
-
-
