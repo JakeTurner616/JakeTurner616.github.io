@@ -26,8 +26,9 @@ sudo bash ~/autowgc.sh
 
 ## Syntax:
 
+```bash
 sudo bash ~/autowgc [-h |-a `file` |-s ]
-
+```
 ## Flags:
 
  -h           Shows command syntax and other info.
