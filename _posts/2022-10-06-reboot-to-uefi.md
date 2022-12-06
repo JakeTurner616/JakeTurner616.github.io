@@ -9,7 +9,7 @@ redirect_from:
   - /reboot-to-uefi/
 date: 2022-10-06 1:30:00 -0500
 ---
-
+---
 ## reboot-to-uefi
 
 [reboot-to-uefi](https://github.com/JakeTurner616/reboot-to-uefi) is a simple batch / bash script to act as a clone of ASROCK restart to UEFI, but for non ASROCK motherboards.
