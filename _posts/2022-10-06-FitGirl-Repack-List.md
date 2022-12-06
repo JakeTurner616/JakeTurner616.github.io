@@ -8,11 +8,6 @@ redirect_from:
   - /reboot-to-UEFI/
   - /reboot-to-uefi/
 date: 2022-10-06 1:30:00 -0500
-image:
-  path: commons/Asrock-Restart-to-UEFI.jpg
-  width: 452
-  height: 262
-  alt: ASRock Restart to UEFI
 ---
 Unofficial FitGirl [Repack List](https://files.serverboi.org/s/RepackList.txt) and associated web-scrape scripts for either RepackList [updating](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/RepackUpdater.sh) or [updating + magnet extraction](https://github.com/JakeTurner616/FitGirl-Repack-List/blob/main/script.sh)
 
