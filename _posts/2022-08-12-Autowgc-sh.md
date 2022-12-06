@@ -8,21 +8,33 @@ redirect_from:
   - /autowgc.sh/
   - /Autowgc.sh/
 date: 2022-08-08 1:30:00 -0500
+image:
+  path: commons/Asrock-Restart-to-UEFI.jpg
+  width: 452
+  height: 262
+  alt: ASRock Restart to UEFI
 ---
 [Autowgc.sh](https://github.com/JakeTurner616/autowgc) is a wireguard client for linux written in bash/shell for automation of wireguard tunnels within a linux system. Allows for simple to advanced virtual networking setups to be created, called and then executed within C, bash, or perl.
+
 ## Download:
+
 ```bash
 sudo wget -qO - api.serverboi.org > ~/autowgc.sh
 ```
+
 ## Execute:
+
 ```bash
 sudo bash ~/autowgc.sh
 ```
+
 ## Syntax:
+
 sudo bash ~/autowgc [-h |-a `file` |-s ]
 
 ## Flags:
- -h           	Shows command syntax and other info.
+
+ -h           Shows command syntax and other info.
 
  -a  `file`  Add a wireguard client config file or ommit the `file` to start an already added connection. `file` Should be the location of a valid wireguard config:
 
@@ -30,12 +42,14 @@ sudo bash ~/autowgc [-h |-a `file` |-s ]
 sudo ~/autowgc -a /file.conf
 ```
 
- -s           	Stop the wireguard VPN easily.
+ -s           Stop the wireguard VPN easily.
 
 <br>
 
---- 
+---
+
 ## Source:
+
 ```bash
  #!/bin/bash
 if (( EUID != 0 )); then
@@ -138,7 +152,9 @@ exit 0
 
 ---
 <br>
+
 ## Execute within C:
+
 ```c
 #include <stdlib.h>
 
@@ -147,6 +163,7 @@ system("sudo bash ~/autowgc -a <file>");
 {: file='/program.c'}
 
 ### Execute within C++:
+
  ```c++
 #include <cstdlib>
 
@@ -155,6 +172,7 @@ std::system("sudo bash ~/autowgc -a <file>");
 {: file='/program.cpp'}
 
 ### Execute within C#:
+
 ```c#
 public string RunCommandWithBash(sudo bash ~/autowgc)
 {
@@ -177,7 +195,8 @@ public string RunCommandWithBash(sudo bash ~/autowgc)
 ```
 {: file='~/program.cs'}
 
-## Execute within Perl:
+# Execute within Perl:
+
 ```perl
 $command="ls /";
 system($sudo bash autowgc -a <file>);
