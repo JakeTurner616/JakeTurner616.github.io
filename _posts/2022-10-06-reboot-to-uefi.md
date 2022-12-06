@@ -14,11 +14,11 @@ image:
   height: 262
   alt: ASRock Restart to UEFI
 ---
-## reboot-to-uefi
+# reboot-to-uefi
 
-[reboot-to-uefi](https://github.com/JakeTurner616/reboot-to-uefi) is a simple batch / bash script to act as a clone of ASROCK restart to UEFI, but for non ASROCK motherboards.
+[reboot-to-uefi](https://github.com/JakeTurner616/reboot-to-uefi) is a simple batch / bash script to act as a clone of ASROCK restart to UEFI, but for non ASROCK motherboards. 
 
-## Usage (Windows):
+# Usage (Windows):
 
 One liner to download and execute (cmd running as administrator):
 
@@ -28,7 +28,7 @@ curl -sS https://raw.githubusercontent.com/JakeTurner616/reboot-to-bios/main/reb
 
 Or clone/copy contents of `reboot-to-bios.bat` into a file with a `.bat` file extension, then run it as administrator.
 
-## Usage (Most Linux OS's):
+# Usage (Most Linux OS's):
 
 One liner to download and execute (privledged shell):
 
@@ -40,17 +40,20 @@ Or clone/copy contents of `reboot-to-bios.sh` into a file with a `.sh` file exte
 
 ---
 
-## Limitations:
+# Limitations:
 
 - Script must be ran as privledged user - Will return an error otherwise.
 
+
 - Might not work for certian motherboards with fast-boot / ultra-fast-boot on Windows.
+
 
 - Might not work with some configurations of Windows fast-startup.
 
+
 - Uses systemctl only on Linux as of now - Requires systemd as init system.
 
-## Future ideas:
+# Future ideas:
 
 - Update Linux version to detect the active init system being used as to support more distros.
 
