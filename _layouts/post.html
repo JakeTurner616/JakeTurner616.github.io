@@ -8,14 +8,12 @@ tail_includes:
   - post-nav
   - comments
 ---
-
+<style>div.mb-3{visibility: hidden;}</style>
 <h1 data-toc-skip>{{ page.title }}</h1>
 
 <div class="post-meta text-muted">
     <!-- published date -->
     <span>
-      {{ site.data.locales[site.lang].post.posted }}
-      {% include datetime.html date=page.date tooltip=true %}
     </span>
 
     <!-- lastmod date -->
@@ -62,8 +60,10 @@ tail_includes:
       {% elsif page.authors %}
         {% assign authors = page.authors %}
       {% endif %}
-
+      {{ site.data.locales[site.lang].post.posted }}
+      {% include datetime.html date=page.date tooltip=true %}
       {{ site.data.locales[site.lang].post.written_by }}
+      
 
       <em>
       {% if authors %}
