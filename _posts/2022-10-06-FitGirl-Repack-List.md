@@ -3,10 +3,9 @@ layout: post
 comments: true
 title: "Updated FitGirl repacks list"
 redirect_from:
-  - /reboot-to-bios/
-  - /reboot-to-BIOS/
-  - /reboot-to-UEFI/
-  - /reboot-to-uefi/
+  - /fg/
+  - /FG/
+  - /fitgirl/
 date: 2022-10-06 1:30:00 -0500
 ---
 ---
