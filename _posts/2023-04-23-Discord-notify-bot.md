@@ -1,20 +1,22 @@
 ---
 layout: post
 comments: true
-title: "Discord-notify - Ultimate Discord notfication bot"
+title: "Discord-notify-bot - Ultimate Discord notfication bot"
 redirect_from:
   - /discordnotify/
   - /discord-notify/
   - /discord-bot/
   - /discordbot/
+  - /discord-notify-bot/
+  - /discordnotifybot/
 date: 2023-04-23 1:30:00 -0500
 ---
 ---
 
-# Discord-notify
+# Discord-notify-bot
 
 ## Overview
-Discord-notify is a Discord bot that sends notifications at any number of specified times and can also send a message to a text channel when a user joins a specified voice channel.
+[Discord-notify-bot](https://github.com/JakeTurner616/discord-notify-bot) is a Discord bot that sends notifications at any number of specified times and can also send a message to a text channel when a user joins a specified voice channel.
 
 ## Bot setup
 You need a bot token and to invite your bot with valid permissions from the discord developer portal. You also need the role name, role ID, vc ID, and tc ID in your server so that the bot knows what to monitor and where / whom to send messages.
