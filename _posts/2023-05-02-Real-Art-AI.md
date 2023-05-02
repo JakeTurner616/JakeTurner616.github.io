@@ -15,7 +15,7 @@ date: 2023-05-02 1:30:00 -0500
 # Real Art AI
 
 <p align="center">
-  <img src="[https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/assets/img/sdloadbaldiagram.png?raw=true](https://raw.githubusercontent.com/JakeTurner616/JakeTurner616.github.io/main/assets/img/banner.png)" alt="banner"/>
+  <img src="https://raw.githubusercontent.com/JakeTurner616/JakeTurner616.github.io/main/assets/img/banner.png" alt="banner"/>
 </p>
 
 ## Description
