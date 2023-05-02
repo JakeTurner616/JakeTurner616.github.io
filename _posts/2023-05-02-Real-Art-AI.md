@@ -33,7 +33,7 @@ date: 2023-05-02 1:30:00 -0500
 
 *Denoising Strength
 
-  Therefore, the denoising strength parameter in img2img is an essential tool that enables users to balance the trade-off between noise reduction and the preservation of image details. By adjusting the denoising strength parameter, users can customize the amount of noise reduction applied to the image, ensuring that the final output meets their specific needs and preferences.
+  The denoising strength parameter in img2img is an essential tool that enables users to balance the trade-off between noise reduction and the preservation of image details. By adjusting the denoising strength parameter, users can customize the amount of noise reduction applied to the image, ensuring that the final output meets their specific needs and preferences.
 
 *Prompt autocomplete
 
