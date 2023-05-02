@@ -166,7 +166,10 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
-
+    
+include:
+  - app-ads.txt
+  
 exclude:
   - '*.gem'
   - '*.gemspec'
