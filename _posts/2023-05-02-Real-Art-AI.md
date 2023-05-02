@@ -14,6 +14,10 @@ date: 2023-05-02 1:30:00 -0500
 
 # Real Art AI
 
+<p align="center">
+  <img src="[https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/assets/img/sdloadbaldiagram.png?raw=true](https://raw.githubusercontent.com/JakeTurner616/JakeTurner616.github.io/main/assets/img/banner.png)" alt="banner"/>
+</p>
+
 ## Description
 [Real Art AI](https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI) allows users to easily create stunning digital art. Using cutting-edge AI users can create personalized illustrations, or upload photos and transform them into completely unique digital art pieces. Real Art AI gives anybody the tools to pull off advanced AI art techniques such as face-morphing, face-swap, background-swap/replace, up-scaling, and image beautification all in one place.
 
