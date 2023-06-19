@@ -83,7 +83,7 @@
         {% assign index = entry | plus: 0 %}
         {% assign post = site.posts[index] %}
         <div class="col">
-          <a href="{{ post.url | relative_url }}" class="card post-preview h-100">
+          <a href="{{ post.url | prepend: site.baseurl | relative_url }}" class="card post-preview h-100">
             <div class="card-body">
               {% include datetime.html date=post.date class="small" lang=include.lang %}
               <h4 class="pt-0 my-2" data-toc-skip>{{ post.title }}</h4>
