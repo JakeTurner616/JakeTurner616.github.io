@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Load balance Stable Diffusion GPU/CPU Cluster with nginx."
+title: "Load balance Stable Diffusion GPU/CPU Cluster"
 redirect_from:
   - /sd-loadbalance/
   - /sdloadbalance/
@@ -31,11 +31,49 @@ For baremetal simply install nginx and paste the contents of the configuration -
 
 After the configuration is applied, Nginx will load balance incoming requests between the two applications running on `localhost:7860` and `localhost:7861`.
 
+## Network diagram
 <p align="center">
   <img src="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/assets/img/sdloadbaldiagram.png?raw=true" alt="diagram"/>
 </p>
 
+## Config:
+
+```nginx.conf
+user nginx;
+worker_processes auto;
+error_log /var/log/nginx/error.log;
+pid /run/nginx.pid;
+
+events {
+    worker_connections 1024;
+}
+
+http {
+    upstream my_app {
+        server localhost:7860;
+        server localhost:7861;
+    }
+
+    server {
+        listen 80;
+        server_name localhost;
+
+        location / {
+            proxy_pass http://my_app;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+        }
+    }
+}
+```
+{: file='/etc/nginx/nginx.conf'}
+
 ---
+
+
+
+
+
 
 > Edit this page's <a href="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/{{page.path}}">markdown</a> on github.
 
