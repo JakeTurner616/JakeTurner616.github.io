@@ -38,7 +38,7 @@ After the configuration is applied, Nginx will load balance incoming requests be
 
 ## Config:
 
-```nginx.conf
+```
 user nginx;
 worker_processes auto;
 error_log /var/log/nginx/error.log;
