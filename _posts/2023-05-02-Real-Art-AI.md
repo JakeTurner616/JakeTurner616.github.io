@@ -43,6 +43,9 @@ date: 2023-05-02 1:30:00 -0500
 
   The prompt autocomplete feature works by using a GPT-2 like language model that has been trained on a dataset of txt2img prompts. When a user enters a partial description of an image, the model uses its training to generate a complete description that is consistent with the language patterns it has learned. This can save the user time and effort by generating a complete prompt without requiring them to manually enter all the details.
 
+- AI painting
+  AI painting is a process where the user selects a specific area in an image, and an algorithm trained on image reconstruction adds finely placed details within that selection. It combines the user's artistic input with the algorithm's learning to enhance the artwork with intricate elements.
+
 ## Cross platform support
 Real Art AI supports both [IOS](https://apps.apple.com/us/app/real-art-ai/id6449267914) and [Android](https://play.google.com/store/apps/details?id=org.serverboi.RealArtAI) phones!
 
@@ -60,6 +63,27 @@ Real Art AI supports both [IOS](https://apps.apple.com/us/app/real-art-ai/id6449
     document.getElementById("appLink").href = "https://apps.apple.com/us/app/real-art-ai/id6449267914";
   }
 </script>
+
+##Release info
+
+> `*` indicates an unpublished build.
+{: .prompt-info }
+> 
+- IOS
+
+| Release |  📷 txt2img  | 🖼️ img2img | 🔧 inpaint | Prompt Fill | Release Notes |
+|---------|-------------|-------------|------------|-------------|---------------|
+| 1.0.0   |     ✅      |      ✅     |     ❌    |   ✅       | - Initial release. |
+| 1.1.0   |     ✅      |      ✅     |     ✅    |   ✅       | - Added support for inpaint feature. Bug and UI fixes. |
+
+- Android
+
+| Release |  📷 txt2img  | 🖼️ img2img | 🔧 inpaint | Prompt Fill | Release Notes |
+|---------|-------------|-------------|------------|-------------|---------------|
+| 1.0.0   |     ✅      |      ✅     |     ❌    |   ✅       | - Initial release. |
+| 1.1.0   |     ✅      |      ✅     |     ❌    |   ✅       | - Bug and UI fixes. |
+| 1.2.0   |     ✅      |      ✅     |     ✅    |   ✅       | - Added support for inpaint feature. Bug and UI fixes. |
+| `*`1.3.0   |     ✅      |      ✅     |     ✅    |   ✅       | - UMP added, ad state fixes and paint canvas fixes. |
 ---
 
 > Edit this page's <a href="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/{{page.path}}">markdown</a> on github.
