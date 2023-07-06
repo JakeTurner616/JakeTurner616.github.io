@@ -65,6 +65,8 @@ Real Art AI supports both [IOS](https://apps.apple.com/us/app/real-art-ai/id6449
 
 </script>
 
+>  Lines with a * are used to indicate am un-released/un-published build.
+
 | Platform | Release | txt2img | img2img | inpaint | Prompt Fill | Release Notes                                   |
 |----------|---------|---------|---------|---------|-------------|-------------------------------------------------|
 | IOS      | 1.0.0   | ✅      | ✅      | ❌      | ✅          | - Initial release.                              |
