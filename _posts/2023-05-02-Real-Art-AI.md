@@ -64,26 +64,6 @@ Real Art AI supports both [IOS](https://apps.apple.com/us/app/real-art-ai/id6449
   }
 </script>
 
-##Release info
-
-> `*` indicates an unpublished build.
-{: .prompt-info }
-> 
-- IOS
-- 
-| Release | 📷 txt2img | 🖼️ img2img | 🔧 inpaint | Prompt Fill | Release Notes |
-|---------|------------|------------|------------|-------------|---------------|
-| 1.0.0   |     ✅     |     ✅     |     ❌     |     ✅       | - Initial release. |
-| 1.1.0   |     ✅     |     ✅     |     ✅     |     ✅       | - Added support for inpaint feature. Bug and UI fixes. |
-
-- Android
-
-| Release | 📷 txt2img | 🖼️ img2img | 🔧 inpaint | Prompt Fill | Release Notes |
-|---------|------------|------------|------------|-------------|---------------|
-| 1.0.0   |     ✅     |     ✅     |     ❌     |     ✅       | - Initial release. |
-| 1.1.0   |     ✅     |     ✅     |     ❌     |     ✅       | - Bug and UI fixes. |
-| 1.2.0   |     ✅     |     ✅     |     ✅     |     ✅       | - Added support for inpaint feature. Bug and UI fixes. |
-| `*`1.3.0 |     ✅     |     ✅     |     ✅     |     ✅       | - UMP added, ad state fixes, and paint canvas fixes. |
 ---
 
 > Edit this page's <a href="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/{{page.path}}">markdown</a> on github.
