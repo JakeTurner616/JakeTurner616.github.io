@@ -135,9 +135,9 @@ document.body.appendChild(table);
       background-color: #f2f2f2;
     }
   </style>
-
+<body>
 <div id="table-container"></div>
-
+</body>
 
 ---
 
