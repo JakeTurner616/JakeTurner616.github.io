@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+hidden: true
 title: "AI generated videos using Deforum Stable-Diffusion"
 redirect_from:
   - /Deforum-Stable-Diffusion-AI/
