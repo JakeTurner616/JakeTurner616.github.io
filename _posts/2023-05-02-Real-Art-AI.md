@@ -62,6 +62,60 @@ Real Art AI supports both [IOS](https://apps.apple.com/us/app/real-art-ai/id6449
     // Default to iOS link
     document.getElementById("appLink").href = "https://apps.apple.com/us/app/real-art-ai/id6449267914";
   }
+
+
+
+
+  // Create the table element
+var table = document.createElement("table");
+
+// Create the table header row
+var thead = document.createElement("thead");
+var headerRow = document.createElement("tr");
+var headers = ["Platform", "Release", "txt2img", "img2img", "inpaint", "Prompt Fill", "Release Notes"];
+
+// Add the header cells to the header row
+headers.forEach(function (headerText) {
+  var headerCell = document.createElement("th");
+  headerCell.textContent = headerText;
+  headerRow.appendChild(headerCell);
+});
+
+// Append the header row to the table header
+thead.appendChild(headerRow);
+
+// Create the table body
+var tbody = document.createElement("tbody");
+
+// Define the data rows
+var dataRows = [
+  ["IOS", "1.0.0", "✅", "✅", "❌", "✅", "- Initial release."],
+  ["IOS", "1.1.0", "✅", "✅", "✅", "✅", "- Added support for inpaint feature. Bug and UI fixes."],
+  ["Android", "1.0.0", "✅", "✅", "❌", "✅", "- Initial release."],
+  ["Android", "1.1.0", "✅", "✅", "❌", "✅", "- Bug and UI fixes."],
+  ["Android", "1.2.0", "✅", "✅", "✅", "✅", "- Added support for inpaint feature. Bug and UI fixes."],
+  ["Android", "*1.3.0", "✅", "✅", "✅", "✅", "- UMP added, ad state fixes, and paint canvas fixes."]
+];
+
+// Add the data rows to the table body
+dataRows.forEach(function (rowData) {
+  var row = document.createElement("tr");
+  
+  rowData.forEach(function (cellData) {
+    var cell = document.createElement("td");
+    cell.textContent = cellData;
+    row.appendChild(cell);
+  });
+  
+  tbody.appendChild(row);
+});
+
+// Append the table header and body to the table element
+table.appendChild(thead);
+table.appendChild(tbody);
+
+// Append the table to the document body
+document.body.appendChild(table);
 </script>
 
 ---
