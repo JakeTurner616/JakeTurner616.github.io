@@ -74,7 +74,7 @@ Real Art AI supports both [IOS](https://apps.apple.com/us/app/real-art-ai/id6449
 |---------|---------|---------|---------|-------------|-------------------------------------------------|
 | 1.0.0   | ✅      | ✅      | ❌      | ✅          | - Initial release.                              |
 | 1.1.0   | ✅      | ✅      | ✅      | ✅          | - Added support for inpaint feature. Bug and UI fixes. |
-| 1.2.0   | ✅      | ✅      | ✅      | ✅          | - Merged with Andriod release 1.3.0 . |
+| 1.2.0   | ✅      | ✅      | ✅      | ✅          | - Merged with Andriod release 1.3.0. |
 
 ## Android
 
