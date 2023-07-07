@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: "Real Art AI - AI art studio"
+pinned: true
 redirect_from:
   - /realartai/
   - /RealArtAi/
