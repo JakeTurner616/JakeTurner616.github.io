@@ -70,20 +70,23 @@ Real Art AI supports both [IOS](https://apps.apple.com/us/app/real-art-ai/id6449
 
 ## IOS
 
-| Release | txt2img | img2img | inpaint | Prompt Fill | Release Notes                                   |
-|---------|---------|---------|---------|-------------|-------------------------------------------------|
-| 1.0.0   | ✅      | ✅      | ❌      | ✅          | - Initial release.                              |
-| 1.1.0   | ✅      | ✅      | ✅      | ✅          | - Added support for inpaint feature. Bug and UI fixes. |
-| 1.2.0   | ✅      | ✅      | ✅      | ✅          | - Merged with Andriod release 1.3.0. |
+| Release | txt2img | img2img | inpaint | Prompt Fill | outpaint | Release Notes                                   |
+|---------|---------|---------|---------|-------------|----------|-------------------------------------------------|
+| 1.0.0   | ✅      | ✅      | ❌      | ✅          | ❌       | - Initial release.                              |
+| 1.1.0   | ✅      | ✅      | ✅      | ✅          | ❌       | - Added support for inpaint feature. Bug and UI fixes. |
+| 1.2.0   | ✅      | ✅      | ✅      | ✅          | ❌       | - Merged with Android release 1.3.0.             |
+// still in review ---> | 1.3.0   | ✅      | ✅      | ✅      | ✅          | ✅       | - Added outpaint feature. Fixed lots of bugs.   |
 
 ## Android
 
-| Release | txt2img | img2img | inpaint | Prompt Fill | Release Notes                                   |
-|---------|---------|---------|---------|-------------|-------------------------------------------------|
-| 1.0.0   | ✅      | ✅      | ❌      | ✅          | - Initial release.                              |
-| 1.1.0   | ✅      | ✅      | ❌      | ✅          | - Bug and UI fixes.                             |
-| 1.2.0   | ✅      | ✅      | ✅      | ✅          | - Added support for inpaint feature. Bug and UI fixes. |
-| 1.3.0  | ✅      | ✅      | ✅      | ✅          | - UMP added, ad state fixes, and paint canvas fixes. |
+| Release | txt2img | img2img | inpaint | Prompt Fill | outpaint | Release Notes                                   |
+|---------|---------|---------|---------|-------------|----------|-------------------------------------------------|
+| 1.0.0   | ✅      | ✅      | ❌      | ✅          | ❌       | - Initial release.                              |
+| 1.1.0   | ✅      | ✅      | ❌      | ✅          | ❌       | - Bug and UI fixes.                             |
+| 1.2.0   | ✅      | ✅      | ✅      | ✅          | ❌       | - Added support for inpaint feature. Bug and UI fixes. |
+| 1.3.0   | ✅      | ✅      | ✅      | ✅          | ✅       | - UMP added, ad state fixes, and paint canvas fixes. |
+| 1.4.0   | ✅      | ✅      | ✅      | ✅          | ✅       | - Added outpaint feature. Fixed lots of bugs.   |
+| 1.5.0   | ✅      | ✅      | ✅      | ✅          | ✅       | - UI hotfix. Better error 413 handling.   |
 
 
 ---
