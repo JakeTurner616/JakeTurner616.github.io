@@ -16,7 +16,6 @@ order: 4
 ---
 
 {% include anim.html %}
-{% include about.html %}
 
 # 👋 Hi, I'm Jake Turner, a web developer from Denver, CO.
 
