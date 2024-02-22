@@ -5,6 +5,7 @@ icon: fas fa-server
 order: 2
 ---
 
+
 <p align="center">
   <img src="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/363d28fe6287a03c9846776c11ad2546a669c4e5/assets/img/homelab.jpg?raw=true" alt="homelab server img 1"/>
 </p>
