@@ -5,22 +5,13 @@ title: "Infinity Library - Book Downloader"
 pinned: false
 redirect_from:
   - /infinitylibrary/
+image:
+  path: /commons/infinity-icon.png
 date: 2024-02-21 1:30:00 -0500
+
 ---
 
-<div style="display: flex; align-items: flex-start;">
-  <div style="flex: 1;">
-  </div>
-  <div>
-    <a href="https://github.com/JakeTurner616/Infinity-Library/">
-      <img align="right" width="200" height="200" src="https://github.com/JakeTurner616/Infinity-Library/blob/main/docs/icon.png?raw=true">
-    </a>
-  </div>
-</div>
-
-# Infinity Library 📚
-
-A reliable, lightweight and fast desktop client for Library Genisis.
+Infinity Library is a reliable, lightweight and fast desktop client for Library Genisis. Works on PC, Mac, and Linux.
 
 | **OS**                                                                                                                                 | **Version**    | **Details**                                                                                                            | **Bundled JRE**                                                                                        |
 |:--------------------------------------------------------------------------------------------------------------------------------------:|----------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -32,6 +23,7 @@ A reliable, lightweight and fast desktop client for Library Genisis.
   <img src="https://raw.githubusercontent.com/JakeTurner616/Infinity-Library/main/docs/InfinityLibrary.gif" alt="Using the application to find book mirrors" style="display: block; margin: auto;">
 </div>
 
+##
 
 ## Features 🌟
 
