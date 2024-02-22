@@ -7,9 +7,20 @@ redirect_from:
   - /infinitylibrary/
 image:
   path: /commons/infinity-icon.png
+  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qPVIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  alt: Infinity Library logo
 date: 2024-02-21 1:30:00 -0500
 
 ---
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 1;">
+  </div>
+  <div>
+    <a href="https://github.com/JakeTurner616/Infinity-Library/">
+      <img align="right" width="200" height="200" src="https://github.com/JakeTurner616/Infinity-Library/blob/main/docs/icon.png?raw=true">
+    </a>
+  </div>
+</div>
 
 Infinity Library is a reliable, lightweight and fast desktop client for Library Genisis. Works on PC, Mac, and Linux.
 
