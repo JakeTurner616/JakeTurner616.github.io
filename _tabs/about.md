@@ -15,6 +15,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+{% include anim.html %}
+{% include about.html %}
+
 # 👋 Hi, I'm Jake Turner, a web developer from Denver, CO.
 
 ## 🔭 Current Work
@@ -47,7 +50,7 @@ order: 4
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=JakeTurner616&theme=darcula&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=JakeTurner616&theme=darcula&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=JakeTurner616&theme=darcula&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+![](https://camo.githubusercontent.com/e66afbbe955ad3d5a641f79ef7f278b137b3839e32b9306bf077185c9ca52510/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d4a616b655475726e6572363136267468656d653d64617263756c6126686964655f626f726465723d66616c736526696e636c7564655f616c6c5f636f6d6d6974733d7472756526636f756e745f707269766174653d66616c7365266c61796f75743d636f6d70616374)
 
 # 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=JakeTurner616&theme=radical&no-frame=false&no-bg=true&margin-w=4)
