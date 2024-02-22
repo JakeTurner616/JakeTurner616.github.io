@@ -42,9 +42,6 @@ date: 2024-02-21 01:30:00 -0500
 
 ---
 
-## Contributors 👋
-[![Contributors](https://contrib.rocks/image?repo=JakeTurner616/Infinity-Library)](https://github.com/JakeTurner616/Infinity-Library/graphs/contributors)
-
 ## License 📜
 
 This project is licensed under the GNU GPL v3.0 License - see the [LICENSE](https://github.com/JakeTurner616/Infinity-Library/blob/main/LICENSE) file for details.
