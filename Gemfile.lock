@@ -104,7 +104,7 @@ GEM
     yell (2.2.2)
 
 PLATFORMS
-  x64-mingw-ucrt
+  x64-unknown
 
 DEPENDENCIES
   html-proofer (~> 3.18)
@@ -118,3 +118,4 @@ DEPENDENCIES
 
 BUNDLED WITH
    2.4.12
+
