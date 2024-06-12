@@ -5,10 +5,11 @@ title: "Pygame Lua Integration: Simplifying Game Development"
 pinned: false
 redirect_from:
   - /pygame-lua-integration/
+  - /pygamelua/
 date: 2024-05-30 01:30:00 -0500
 ---
 
-This project is quite simple as it aims to streamline the process of Pygame development through the use of the Lua scripting language, while utilizing the robust feature set of Pygame. The idea is to create a framework for fast Pygame protyping that could possibly even work as an embedded application.
+This project, [pygame lua bindings](https://github.com/JakeTurner616/pygame-lua-bindings), aims to streamline the process of simple Pygame development tasks through the use of the Lua scripting language while utilizing the robust feature set of Pygame with a custom main loop and event handler system. The idea is to create a framework for fast Pygame prototyping that could possibly even work as an embedded application.
 
 <a href="https://github.com/JakeTurner616/pygame-lua-bindings">
   <img src="https://github.com/JakeTurner616/pygame-lua-bindings/blob/main/docs/lua_snake_pygame.gif?raw=true">
@@ -16,7 +17,7 @@ This project is quite simple as it aims to streamline the process of Pygame deve
 
 ---
 
-Lua (using pygame to lua bindings):
+Lua (using lua bindings):
 ```lua
 clear_canvas()
 draw_text(50, 50, "Hello Pygame from lua!", "Arial", 30, 'red')
@@ -50,6 +51,12 @@ pygame.quit()
 - **Lua-Pygame Bindings**: Seamlessly integrates Lua scripting capabilities with Pygame's graphical functions.
 - **High-Level Abstractions**: Handles events and main game loop through Lua, reducing the need for verbose Python code.
 - **Cross-Platform Compatibility**: Works across different systems where Python can run.
+  
+> View all the ported and extra implemented methods on the [wiki](https://github.com/JakeTurner616/pygame-lua-bindings/wiki).
+{: .prompt-tip }
+
+> View all the examples, ported games, demos, and souce code in the [/examples](https://github.com/JakeTurner616/pygame-lua-bindings/tree/main/examples) directory of the repo.
+{: .prompt-tip }
 
 ---
 
