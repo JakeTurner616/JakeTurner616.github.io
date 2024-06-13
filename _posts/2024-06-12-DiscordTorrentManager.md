@@ -7,13 +7,10 @@ title: "DiscordTorrentManager - Torrent stuff with your friends"
 date: 2024-06-12 2:50:00 -0500
 ---
 
-
-
 [DiscordTorrentManager](https://github.com/JakeTurner616/DiscordTorrentManager) is a Torrent seeker and manager that you can use with your friends.
 
-
-> [!NOTE]
 > The [initial](https://github.com/JakeTurner616/DiscordMovieBot) version of this project faced significant issues with maintainability and scope. This is the second iteration and aims to have a clearer scope and improved testability so it can be easily maintained and improved.
+{: .prompt-tip }
 
 This program consists of a bot scirpt and a search wrapper. these two parts work together to find torrents and add magnets to qbittorrent.
 
@@ -70,7 +67,7 @@ This program consists of a bot scirpt and a search wrapper. these two parts work
 
 5. Note the IP address and port number where the Web UI will be accessible (e.g., `http://10.0.0.153:8080`).
 
-6. Create torrent categories in qBittorrent to associate the downloaded content with the folders they should be saved to (for example: movies > Z://some/location/movies, tv > Z://some/location/tv). These are to be used with /magnet. (/magnet <magnet_link> <category>) These could be set somwhere that has access to a media player like plex, jellyfin, or anything really.
+6. Create torrent categories in qBittorrent to associate the downloaded content with the folders they should be saved to (for example: movies > Z://some/location/movies, tv > Z://some/location/tv). These are to be used with `/magnet`. (`/magnet <magnet_link> <category>`) These could be set somwhere that can be accessed by a media player like plex, jellyfin, or anything really.
 
 ## Discord Bot Setup
 
