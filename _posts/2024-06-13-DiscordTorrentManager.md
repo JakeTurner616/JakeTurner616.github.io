@@ -1,7 +1,7 @@
 ---
-layout: page
-comments: false
-published: false
+layout: post
+comments: true
+published: true
 pin: true
 title: "DiscordTorrentManager - Torrent stuff with your friends"
 date: 2024-06-13 2:50:00 -0500
@@ -118,3 +118,11 @@ Here are the commands included with the DiscordTorrentManager bot:
     /search <title>
     ```
     This command searches for torrents based on the provided title. The bot will list the results, and the user can select a result to automatically download it to the 'movie' category. Assumes the 'movie' category exists.
+
+---
+
+> Edit this page's <a href="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/{{page.path}}">markdown</a> on github.
+
+---
+
+{% include giscus.html %}
