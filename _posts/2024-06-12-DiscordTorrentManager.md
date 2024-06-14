@@ -71,22 +71,20 @@ This program consists of a bot scirpt and a search wrapper. these two parts work
 2. Navigate to the `Web UI` section under the `Web UI` tab.
 
 3. Check the `Enable the Web User Interface (Remote control)` box.
+   
+5. Set a network interface to bind the webui in the `IP Address` text box.
 
-4. Set a username and password for the Web UI or setup whitelist rules.
+6. Set a username and password for the Web UI.
 
-5. Note the IP address and port number where the Web UI will be accessible (e.g., `http://10.0.0.153:8080`).
-
-6. Create torrent categories in qBittorrent to associate the downloaded content with the folders they should be saved to (for example: movies > Z://some/location/movies, tv > Z://some/location/tv). These are to be used with `/magnet`. (`/magnet <magnet_link> <category>`) These could be set somwhere that can be accessed by a media player like plex, jellyfin, or anything really.
+7. Create torrent categories in qBittorrent to associate the downloaded content with the folders they should be saved to (for example: movies > Z://some/location/movies, tv > Z://some/location/tv). These are to be used with `/magnet <magnet_link> <category>` The category save paths could be set somwhere that has access to a media player like plex, jellyfin, or anything really.
 
 ## Discord Bot Setup
 
 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications) and create a new bot application.
 
-2. Navigate to the `Bot` section and create a new bot.
+2. Create and copy the bot token.
 
-3. Create and copy the bot token.
-
-4. Invite the bot to your server using the OAuth2 URL Generator under the `OAuth2` tab. Make sure to give the bot the necessary permissions.
+3. Invite the bot to your server using the OAuth2 URL Generator under the `OAuth2` tab. Make sure to give the bot the necessary permissions for slash commands, reactions, and text.
 
 ## Configuration
 
@@ -101,7 +99,7 @@ guild_id = YOUR_DISCORD_GUILD_ID
 
 [qbit]
 # change to your qBittorrent host and port:  http://host_ip:port 
-host = http://10.0.0.153:8080
+host = http://10.0.0.123:8080
 # qBittorrent WebUI login credentials
 user = YOUR_QBITTORRENT_USERNAME
 pass = YOUR_QBITTORRENT_PASSWORD
@@ -124,7 +122,7 @@ Here are the commands included with the DiscordTorrentManager bot:
     /search <title>
     ```
     This command searches for torrents based on the provided title. The bot will list the results, and the user can select a result to automatically download it to the 'movie' category. Assumes the 'movie' category exists.
-
+  
 ---
 
 > Edit this page's <a href="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/{{page.path}}">markdown</a> on github.
