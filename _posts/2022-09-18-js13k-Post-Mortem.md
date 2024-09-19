@@ -11,6 +11,8 @@ date: 2024-09-17 1:30:00 -0500
 First off I would like to express how deeply I appreciate the opportunity to participate in the JS13k 2024 competition. This event was a lot of fun to participate in. I found the process of creating my game alongside so many very, very talented programmers to be such a profoundly important learning experience.
 
 ## My Game Overview: "Z0MB13"
+My game entry can be played [on js13kgames.com](https://js13kgames.com/games/z0mb13).
+
 The concept for my JS13k submission was a top-down arcade-style arena shooter, featuring an unending sequence of zombies that increase in speed and difficulty. The core objective was to design a game that not only engages the user with its escalating challenge but also diversifies the gameplay with an array of interesting zombie types. Above all, I wanted to make something that I would've played back in the days of flash-based games.
 
 ## Technologies Used
@@ -44,8 +46,3 @@ After all is said and done, JS13k was about embracing the constraints of 13KB, l
 
 
 > Thank you for putting this game jam all together [Andrzej](https://end3r.com/)!
-
-
-My game entry can be played [on js13kgames.com](https://js13kgames.com/games/z0mb13) or below:
-
-{% include game.html %}
