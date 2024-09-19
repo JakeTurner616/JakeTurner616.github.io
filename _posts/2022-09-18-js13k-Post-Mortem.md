@@ -41,8 +41,10 @@ I am particularly proud of the modular zombie system developed for the game. Thi
 - **Expanded Playtesting**: Engaging a broader array of playtesters early in the development process will be crucial in more accurately assessing and adjusting the game’s difficulty curve.
 
 ## Conclusion
-After all is said and done, JS13k was about embracing the constraints of 13KB, learning from every hurdle, and pushing the boundaries of creativity and design with such limited resources. "Z0MB13" was a project that challenged me to think critically, and optimize efficiently. From tackling mobile support to fine-tuning game mechanics, every step was a lesson in balancing ideas and ambition with reality. As I move forward, this experience will for sure guide me to be more intentional regarding the technical intricacies of game/web development. For now, I'm leaving this competition with a great sense of accomplishment and excitement, and I'm highly grateful for the experience.
+After all is said and done, JS13k was about embracing the constraints of 13KB, learning from every hurdle, and pushing the boundaries with such limited resources. "Z0MB13" was a project that challenged me to think critically, and optimize efficiently. From tackling mobile support to fine-tuning game mechanics, every step was a lesson in balancing ideas and ambition with reality. As I move forward, this experience will for sure guide me to be more intentional regarding the technical intricacies of game/web development. For now, I'm leaving this competition with a great sense of accomplishment and excitement, and I'm highly grateful for the experience.
 
+<br>
 
+> Thank you for putting this game jam together [Andrzej](https://end3r.com/)!
 
-> Thank you for putting this game jam all together [Andrzej](https://end3r.com/)!
+{% include giscus.html %}
