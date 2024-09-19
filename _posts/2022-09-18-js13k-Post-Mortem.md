@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "js13k 2024 Post-Mortem - html/css/js Game Jam"
-date: 2024-09-18 1:30:00 -0500
+date: 2024-09-17 1:30:00 -0500
 ---
 
 # JS13k 2024 Post-Mortem
