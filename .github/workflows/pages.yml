@@ -24,9 +24,9 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'  # Not needed with a .ruby-version file
-          bundler-cache: true  # Runs 'bundle install' and caches installed gems automatically
-          cache-version: 0     # Increment this number if you need to re-download cached gems
+          ruby-version: '3.0'
+          bundler-cache: true
+          cache-version: 0
 
       - name: Setup Pages
         id: pages
@@ -38,7 +38,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: pages-artifact
+          name: artifact   # Use the default name that deploy-pages expects
           path: _site
 
   deploy:
@@ -51,5 +51,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-        with:
-          artifact-name: pages-artifact
