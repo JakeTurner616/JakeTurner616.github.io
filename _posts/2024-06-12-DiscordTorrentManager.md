@@ -3,53 +3,18 @@ layout: post
 comments: true
 published: true
 pin: true
-title: "DiscordTorrentManager - Torrent Client"
+title: "DiscordTorrentManager - Torrent stuff with your friends"
 date: 2024-06-12 2:50:00 -0500
 ---
 
-[DiscordTorrentManager](https://github.com/JakeTurner616/DiscordTorrentManager) is a Torrenting client for Discord.
+[DiscordTorrentManager](https://github.com/JakeTurner616/DiscordTorrentManager) is a Torrent seeker and manager that you can use with your friends.
 
-<!-- BEGIN AUTO-README -->
+> The [initial](https://github.com/JakeTurner616/DiscordMovieBot) version of this project faced significant issues with maintainability and scope. This is the second iteration and aims to have a clearer scope and improved testability so it can be easily maintained and improved.
+{: .prompt-tip }
 
-![magnet link demo](https://raw.githubusercontent.com/JakeTurner616/DiscordTorrentManager/refs/heads/main/docs/moviebotdemo.gif)
+This program consists of a bot scirpt and a search wrapper. these two parts work together to find torrents and add magnets to qbittorrent.
 
-This program enhances a Discord server by integrating torrent searching and downloading functionalities through the qBittorrent API. 🤯
-
-
-# 🌟 Installation
-
-## Docker Installation ***(Recommended)***
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/JakeTurner616/DiscordTorrentManager
-    cd DiscordTorrentManager
-    ```
-
-2. **Build the Docker image:**
-
-    ```bash
-    docker build -t discordtorrentmanager .
-    ```
-
-3. **Run the Docker container:**
-
-
-    ### Linux/macOS (Bash or Zsh)
-    ```bash
-    docker run -d --name discordtorrentmanager -v $(pwd)/config.ini:/app/config.ini discordtorrentmanager
-    ```
-
-    ### Windows (PowerShell)
-    ```powershell
-    docker run -d --name discordtorrentmanager -v ${PWD}/config.ini:/app/config.ini discordtorrentmanager
-    ```
-
-
----
-
-## Bare-Metal Installation (Not Recommended)
+# Installation
 
 1. **Clone the repository:**
 
@@ -84,14 +49,12 @@ This program enhances a Discord server by integrating torrent searching and down
     pip install -r requirements.txt
     ```
 
-5. **Running the bot:**
-
-    The Bot can be started by running the start script, Make sure to setup qBittorrent and the values in `config.ini`.
+5. **Run the bot:**
 
     ```bash
-    bash ./start.sh
+    python bot.py
     ```
-    If you encounter the following error: `ImportError: cannot import name 'Option' from 'discord'`, resolve it by running these commands:
+    If you run into this error: `ImportError: cannot import name 'Option' from 'discord'`, just run these commands:
     
     ```bash
     pip uninstall discord -y
@@ -101,9 +64,7 @@ This program enhances a Discord server by integrating torrent searching and down
     pip uninstall discord -y
     ```
 
----
-
-## ⚙️ qBittorrent Setup
+## qBittorrent Setup
 
 1. Open qBittorrent and go to `Tools` -> `Options`.
 
@@ -111,21 +72,21 @@ This program enhances a Discord server by integrating torrent searching and down
 
 3. Check the `Enable the Web User Interface (Remote control)` box.
    
-5. Set a network interface to bind the Web UI in the `IP Address` text box.
+5. Set a network interface to bind the webui in the `IP Address` text box.
 
 6. Set a username and password for the Web UI.
 
-7. Create torrent categories in qBittorrent to associate the downloaded content with the folders they should be saved to (for example: movies --> Z://some/location/movies, and tv --> Z://some/location/tv). These are to be used with `/magnet <magnet_link> <category>` The category save paths could be set somwhere that has access to a media player like plex, jellyfin, a game folder, or anything really.
+7. Create torrent categories in qBittorrent to associate the downloaded content with the folders they should be saved to (for example: movies > Z://some/location/movies, tv > Z://some/location/tv). These are to be used with `/magnet <magnet_link> <category>` The category save paths could be set somwhere that has access to a media player like plex, jellyfin, or anything really.
 
-## ⚙️ Discord Bot Setup
+## Discord Bot Setup
 
 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications) and create a new bot application.
 
 2. Create and copy the bot token.
 
-3. Invite the bot to your Discord server using the OAuth2 URL Generator under the `OAuth2` tab. Make sure to give the bot the necessary permissions for slash commands, reactions, and text.
+3. Invite the bot to your server using the OAuth2 URL Generator under the `OAuth2` tab. Make sure to give the bot the necessary permissions for slash commands, reactions, and text.
 
-## ⚙️ Configuration
+## Configuration
 
 Edit the `config.ini` file to include your specific environment settings for connecting to your discord bot and qBittorrent instance:
 
@@ -137,16 +98,16 @@ token = YOUR_DISCORD_BOT_TOKEN
 guild_id = YOUR_DISCORD_GUILD_ID
 
 [qbit]
-# change to your qBittorrent host and port: http://host_ip:port 
-host = http://host_ip:port
+# change to your qBittorrent host and port:  http://host_ip:port 
+host = http://10.0.0.123:8080
 # qBittorrent WebUI login credentials
 user = YOUR_QBITTORRENT_USERNAME
 pass = YOUR_QBITTORRENT_PASSWORD
 ```
 
-The bot can then be started by running the `./start.sh` script.
+The bot can then be started by running the `bot.py` script.
 
-## 🤖 Command Usage
+## Command Usage
 
 Here are the commands included with the DiscordTorrentManager bot:
 
@@ -161,7 +122,10 @@ Here are the commands included with the DiscordTorrentManager bot:
     /search <title>
     ```
     This command searches for torrents based on the provided title. The bot will list the results, and the user can select a result to automatically download it to the 'movie' category. Assumes the 'movie' category exists.
-<!-- END AUTO-README -->
+  
+---
+
+> Edit this page's <a href="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/{{page.path}}">markdown</a> on github.
 
 ---
 

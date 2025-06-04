@@ -6,54 +6,124 @@ title: "Map Pixel - An r/place Fullstack Clone"
 date: 2024-07-05 15:30:00 +0000
 ---
 
-[map-pixel-app](https://github.com/JakeTurner616/map-pixel-app) is a simple full-stack r/place clone that allows users to save pixels on an interactive map.
+## Overview
 
-<!-- BEGIN AUTO-README -->
+Click [here](https://serverboi.org/map-pixel-app/) to try the live demo.
 
-![screenshot](https://github.com/JakeTurner616/map-pixel-app/blob/main/docs/Screenshot-UI-0.png?raw=true)
+[map-pixel-app](https://github.com/JakeTurner616/map-pixel-app) is a simple fullstack clone of the popular r/place, scaled to a giant world size. This interactive application allows users to place colored pixels on a massive world map, creating a collaborative digital artwork. Built from scratch using React, Map Pixel aims to offer a seamless and engaging user experience, supporting real-time updates and user interactions.
 
-## Configuration
+### Screenshots
 
-To self-host this app:
+![Map Pixel Interface](https://raw.githubusercontent.com/JakeTurner616/map-pixel-app/main/docs/Screenshot-UI-0.png)
 
-1. **CORS Setup:**  
-   Configure allowed frontend origins in the backend server.
+*World map interface.*
 
-2. **Frontend `.env`:**
-   - `REACT_APP_BACKEND_URL=https://your-backend-url.com`
-   - `REACT_APP_HCAPTCHA_SITEKEY=your-hcaptcha-site-key`
+![Map Pixel Interface](https://raw.githubusercontent.com/JakeTurner616/map-pixel-app/main/docs/Screenshot-UI-1.png)
 
-3. **Backend Hosting:**  
-   Ensure the backend API is accessible and CORS-compatible with your frontend origin.
+*Pixel placement interface.*
+
+
+## Features
+
+- **Interactive World Map:** Users can zoom in and out, and navigate the world map to place pixels.
+- **Real-Time Updates:** See pixel placements from other users in real-time.
+- **User Authentication:** Secure user login and registration to track individual contributions.
+- **Statistics Page:** View global and personal statistics of pixel placements.
+- **Bot Protection:** Integrated hCaptcha to prevent automated pixel placements.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+
+## Usage
+
+Navigate the map and click to place a pixel. Make sure you are logged in to track your contributions.
+
+1. **Zoom and Navigate:** Use your mouse or touch gestures to zoom in/out and navigate the world map.
+2. **Select a Pixel:** Click on a location to place your pixel.
+3. **Authentication:** Ensure you are logged in to track and view your contributions.
 
 ## Development
 
-### Install dependencies
+### Installation
 
-```bash
-npm install
-````
+#### Prerequisites
+- Node.js
+- npm or yarn
+- Python
+- Flask
+- Docker (for backend deployment)
+- Gunicorn (for running the Flask application)
+- NGINX (for reverse proxy)
 
-### Start the development server
+### Steps
 
-```bash
-npm start
-```
+#### Testing
 
-Runs the app locally at [http://localhost:3000](http://localhost:3000). It hot-reloads on file changes.
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/JakeTurner616/map-pixel-app
+   cd map-pixel-app
+   ```
 
-### Build for production
+2. **Install Frontend Dependencies**
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
 
-```bash
-npm run build
-```
+3. **Build and Deploy for Testing**
+   ```sh
+   npm run start
+   # start the development server
+   ```
 
-Creates an optimized production build in the `build/` folder, suitable for deployment to GitHub Pages or similar.
+4. **Install Backend Dependencies**
+   ```sh
+   # Clone backend repo
+   git clone https://github.com/JakeTurner616/map-pixel-backend
 
-## Deployment
+   cd map-pixel-backend/
+   
+   # Create a virtual environment
+   python -m venv venv
+   
+   # Activate the virtual environment
+   # On Windows:
+   venv\Scripts\activate
+   # On macOS/Linux:
+   source venv/bin/activate
+   
+   # Install dependencies
+   pip install -r requirements.txt
+   ```
 
-The frontend can be deployed using GitHub Pages or served statically via any HTTP server.
-<!-- END AUTO-README -->
+5. **Run the Backend Development Server**
+   ```sh
+   # start the Flask development server
+   python backend.py
+   ```
+
+#### Deployment
+
+1. **Build and Deploy the Frontend**
+   ```sh
+   # build the production assets
+   npm run build
+   ```
+
+2. **Build and Deploy the Backend**
+   ```sh
+   # Make sure to backup the pixels.db database to the /map-pixel-app directory between container rebuilds to prevent data loss!
+   docker build -t map-pixel-app .
+   docker run -p 8000:8000 map-pixel-app
+   ```
+
+## License
+
+This project is licensed under the GNU GPL 3.0 License. See the [LICENSE](https://github.com/JakeTurner616/map-pixel-app/blob/main/LICENSE) file for details.
+
+---
+
+> Edit this page's <a href="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/{{page.path}}">markdown</a> on GitHub.
 
 ---
 

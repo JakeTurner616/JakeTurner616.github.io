@@ -11,9 +11,11 @@ redirect_from:
   - /discordnotifybot/
 date: 2023-04-23 1:30:00 -0500
 ---
+---
 
-<!-- BEGIN AUTO-README -->
+# Discord-notify-bot
 
+## Overview
 [Discord-notify-bot](https://github.com/JakeTurner616/discord-notify-bot) is a Discord bot that sends notifications at any number of specified times and can also send a message to a text channel when a user joins a specified voice channel.
 
 ## Bot setup
@@ -33,7 +35,10 @@ Once the bot is running, it will automatically send notifications at the specifi
 
 ## License
 This project is licensed under the GNU/GPL license - see the [LICENSE](https://github.com/JakeTurner616/discord-notify/blob/main/LICENSE) file for details.
-<!-- END AUTO-README -->
+
+---
+
+> Edit this page's <a href="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/{{page.path}}">markdown</a> on github.
 
 ---
 
