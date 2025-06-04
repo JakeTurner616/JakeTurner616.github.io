@@ -29,39 +29,27 @@ h1.dynamic-title {
 
 ---
 ## Work Experience:
-##### Dev-ops Administrator – https://serverboi.org
-• Setup and maintained core infrastructure for https://serverboi.org, completed hardware and software inventory as to create a successful operating environment as to mimic an enterprise deployment.
+##### Home Server Administrator –
+• Setup and maintained core infrastructure for https://serverboi.org, completed hardware and
+software inventory as to create a successful operating environment as to mimic an enterprise
+Deployment.
 
 • Maintained systems via updates, patches, drivers and kernel releases. Used Active Directory, Domain controller, and other system administration tools to support on premises machines for dedicated services.
 
-##### Network analysis Manager – https://mtgcards.scan
-• Developed and maintained security for an open source internet-facing, fullstack web application for scanning and identifying Magic: The Gathering cards using computer vision and OCR technologies.
-
-• Designed RESTful APIs, implemented a React-based frontend, and managed backend services with Python and WSGI. Deployed the application using Docker and integrated CI/CD pipelines for streamlined development.
-
 ---
 ## Skills:
-• Systems Administration
-
+Account Administration
 • Software / Hardware Support
-
 • Remote / local Administration
-
 • Customer Service / Executive support
-
 • Active Directory / Group Management
-
-• Windows 10, 11 / GNU+Linux
-
+• Windows 10, 11
 • Windows Server Management
-
-• Full-stack dev-ops / Service Management
-
-• Networking Analysis
-
+• GNU+Linux File-System / BASH Shell
 • Containerization / Virtualization
 
 ---
 ## Education:
 Diploma, Greeley West High School (2021)  
-Studying Computer Information Systems (CIS AAS), Full-Stack web development and Network Analysis certificates, Aims Community College. (2021-present)
+Studying Computer Information Systems (CIS AAS), Full-Stack web development certificate, and
+Network Analysis certificate, Aims Community College. (2021-present)

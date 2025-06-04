@@ -11,10 +11,7 @@ redirect_from:
 date: 2023-04-01 1:30:00 -0500
 ---
 
-[The following](https://github.com/JakeTurner616/sd-loadbalance) documents a nginx web server configuration file for Stable Diffusion WebUI request routing
-
-<!-- BEGIN AUTO-README -->
-
+[sd-loadbalance](https://github.com/JakeTurner616/sd-loadbalance) is a simple nginx configuration to load balance two applications running on localhost:7860 and localhost:7861. The configuration uses the default round-robin load balancing method, where each server in the upstream group is used in a sequential manner. This config assumes two [automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) sd instances exist.
 ## Configuration Details
 
 The Nginx configuration file contains the following directives:
@@ -33,7 +30,52 @@ Use within docker is quite simple. See the example dockerfile.
 For baremetal simply install nginx and paste the contents of the configuration - restart Nginx.
 
 After the configuration is applied, Nginx will load balance incoming requests between the two applications running on `localhost:7860` and `localhost:7861`.
-<!-- END AUTO-README -->
+
+## Network diagram
+<p align="center">
+  <img src="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/assets/img/sdloadbaldiagram.png?raw=true" alt="diagram"/>
+</p>
+
+## Config:
+
+```
+user nginx;
+worker_processes auto;
+error_log /var/log/nginx/error.log;
+pid /run/nginx.pid;
+
+events {
+    worker_connections 1024;
+}
+
+http {
+    upstream my_app {
+        server localhost:7860;
+        server localhost:7861;
+    }
+
+    server {
+        listen 80;
+        server_name localhost;
+
+        location / {
+            proxy_pass http://my_app;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+        }
+    }
+}
+```
+{: file='/etc/nginx/nginx.conf'}
+
+---
+
+
+
+
+
+
+> Edit this page's <a href="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/{{page.path}}">markdown</a> on github.
 
 ---
 

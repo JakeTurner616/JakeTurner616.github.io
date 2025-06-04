@@ -10,35 +10,40 @@ redirect_from:
 date: 2022-08-08 1:30:00 -0500
 ---
 
-[Autowgc.sh](https://github.com/JakeTurner616/autowgc) is a wireguard client for linux written in bash/shell for automation of wireguard tunnels within a linux system. Allows for simple to advanced virtual networking setups to be created, called and then executed automatically.
+[Autowgc.sh](https://github.com/JakeTurner616/autowgc) is a wireguard client for linux written in bash/shell for automation of wireguard tunnels within a linux system. Allows for simple to advanced virtual networking setups to be created, called and then executed within C, bash, or perl.
 
-<!-- BEGIN AUTO-README -->
+## Download:
 
-------------
-Download:
+```bash
+sudo wget -qO - api.serverboi.org > ~/autowgc.sh
+```
 
-`sudo wget -qO - api.serverboi.org > ~/autowgc.sh`
+## Execute:
 
-Execute:
+```bash
+sudo bash ~/autowgc.sh
+```
 
-`sudo bash ~/autowgc.sh`
+## Syntax:
 
-------------
+```syntax
+sudo bash ~/autowgc [-h |-a `file` |-s ]
+```
+{: file='syntax'}
 
-Syntax:
+## Flags:
 
-sudo bash ~/autowgc	  [ 	-h  	| -a `<file>` |  -s  	 ]
+ -h           Shows command syntax and other info.
 
- flags:
- 
- -a  `<file>`  Add a wireguard client config file or ommit the `<file>` to start an already added connection.
-               `<file>` Should be the location of a valid wireguard config. > EXAMPLE: sudo ~/autowgc -a ~/Wireguard.conf
- 
- -s           	Stop the wireguard VPN.
- 
- -h           	Shows command syntax and other info.
-<!-- END AUTO-README -->
+ -a  `file`  Add a wireguard client config file or ommit the `file` to start an already added connection. `file` Should be the location of a valid wireguard config:
 
+```bash
+sudo ~/autowgc -a /file.conf
+```
+
+ -s           Stop the wireguard VPN easily.
+
+<br>
 
 ---
 
@@ -144,6 +149,61 @@ exit 0
 ```
 {: file='/autowgc.sh'}
 
+---
+
+<br>
+
+## Execute within C:
+
+```c
+#include <stdlib.h>
+
+system("sudo bash ~/autowgc -a <file>");
+```
+{: file='/program.c'}
+
+### Execute within C++:
+
+ ```c++
+#include <cstdlib>
+
+std::system("sudo bash ~/autowgc -a <file>");
+```
+{: file='/program.cpp'}
+
+### Execute within C#:
+
+```c#
+public string RunCommandWithBash(sudo bash ~/autowgc)
+{
+    var psi = new ProcessStartInfo();
+    psi.FileName = "/bin/bash";
+    psi.Arguments = -a <file>;
+    psi.RedirectStandardOutput = true;
+    psi.UseShellExecute = false;
+    psi.CreateNoWindow = true;
+
+    using var process = Process.Start(psi);
+
+    process.WaitForExit();
+
+    var output = process.StandardOutput.ReadToEnd();
+
+    return output;
+}
+// or try out CliWrap https://github.com/Tyrrrz/CliWrap for bash interaction from within C#
+```
+{: file='~/program.cs'}
+
+# Execute within Perl:
+
+```perl
+$command="ls /";
+system($sudo bash autowgc -a <file>);
+```
+{: file='/program.pl'}
+
+---
 
 > Edit this page's <a href="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/{{page.path}}">markdown</a> on github.
 

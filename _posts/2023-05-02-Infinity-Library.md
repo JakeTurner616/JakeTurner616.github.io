@@ -16,18 +16,19 @@ date: 2024-02-21 01:30:00 -0500
   <img style="margin: 20px;" align="right" width="160" height="160" src="https://github.com/JakeTurner616/Infinity-Library/blob/main/docs/icon.png?raw=true">
 </a>
 
-<!-- BEGIN AUTO-README -->
+---
 
-| **OS**                                                                                                                                 | **Version**    | **Details**                                                                                                            | **Bundled JRE**                                                                                        |
-|:--------------------------------------------------------------------------------------------------------------------------------------:|----------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| <a href="https://github.com/JakeTurner616/Infinity-Library/"><img src="https://github.com/relliv/operating-system-logos/blob/master/src/32x32/WIN.png?raw=true" alt="Windows" style="display: block; margin: auto;"/></a> | v1.1.1 | [Windows setup](https://github.com/JakeTurner616/Infinity-Library/releases/download/v1.1.1/InfinityLibrary-setup.exe) | ✔️ [Temurin](https://adoptium.net/temurin/releases/?os=windows&package=jre)                           |
-| <a href="https://github.com/JakeTurner616/Infinity-Library/"><img src="https://github-production-user-asset-6210df.s3.amazonaws.com/76662862/283240699-2481dc48-be6b-4ebb-9e8c-3b957efe69fa.png" width="32" height="32" alt="Linux" /><img src="https://user-images.githubusercontent.com/25181517/186884152-ae609cca-8cf1-4175-8d60-1ce1fa078ca2.png" width="32" height="32" alt="MAC" style="display: block; margin: auto;"/></a> | v1.1.1 | [tar.gz](https://github.com/JakeTurner616/Infinity-Library/archive/refs/tags/v1.1.1.tar.gz) / [zip](https://github.com/JakeTurner616/Infinity-Library/archive/refs/tags/v1.1.1.zip) | ❌ None                                      |
+| **OS** | **Version** | **Details** | **Bundled JRE** |
+|:------:|-------------|-------------|-----------------|
+| <a href="https://github.com/JakeTurner616/Infinity-Library/"><img src="https://github.com/relliv/operating-system-logos/blob/master/src/32x32/WIN.png?raw=true" alt="Windows"/></a> | v1.1.1 | [Windows setup](https://github.com/JakeTurner616/Infinity-Library/releases/download/v1.1.1/InfinityLibrary-setup.exe) | ✔️ [Temurin](https://adoptium.net/temurin/releases/?os=windows&package=jre) |
+| <a href="https://github.com/JakeTurner616/Infinity-Library/"><img src="https://github-production-user-asset-6210df.s3.amazonaws.com/76662862/283240699-2481dc48-be6b-4ebb-9e8c-3b957efe69fa.png" width="32" height="32" alt="Linux" /><img src="https://user-images.githubusercontent.com/25181517/186884152-ae609cca-8cf1-4175-8d60-1ce1fa078ca2.png" width="32" height="32" alt="MAC"/></a> | v1.1.1 | [tar.gz](https://github.com/JakeTurner616/Infinity-Library/archive/refs/tags/v1.1.1.tar.gz) / [zip](https://github.com/JakeTurner616/Infinity-Library/archive/refs/tags/v1.1.1.zip) | ❌ None |
 
 <div style="text-align: center;">
-  <p>Using Infinity Library to search for books and mirrors:</p>
   <img src="https://raw.githubusercontent.com/JakeTurner616/Infinity-Library/main/docs/InfinityLibrary.gif" alt="Using the application to find book mirrors" style="display: block; margin: auto;">
+  <p>Using Infinity Library to search for books and mirrors</p>
 </div>
 
+---
 
 ## Features 🌟
 
@@ -40,10 +41,15 @@ date: 2024-02-21 01:30:00 -0500
 - 🔢 Pagination allows for in-depth searching of results.
 - 🎨 Uses Java Swing (jswing) and Jsoup for graphics and web scraping, respectively.
 
+---
+
 ## License 📜
 
 This project is licensed under the GNU GPL v3.0 License - see the [LICENSE](https://github.com/JakeTurner616/Infinity-Library/blob/main/LICENSE) file for details.
-<!-- END AUTO-README -->
+
+---
+
+> Edit this page's <a href="https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/{{page.path}}">markdown</a> on github.
 
 ---
 
