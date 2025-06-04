@@ -47,4 +47,6 @@ After all is said and done, JS13k was about embracing the constraints of 13KB, l
 
 > Thank you for putting this game jam together [Andrzej](https://end3r.com/)!
 
+---
+
 {% include giscus.html %}
