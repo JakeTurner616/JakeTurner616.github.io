@@ -42,3 +42,8 @@
   branch: main
   page_path: _posts/2024-30-24-pygame-lua-bindings.md
   readme_path: docs/README.md
+
+- repo_url: https://github.com/mtgscan-cards/monolithic
+  branch: main
+  page_path: _posts/2025-06-05-mtgcards-scan.md
+
