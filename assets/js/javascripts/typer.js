@@ -28,13 +28,25 @@ Typer.prototype.start = function() {
 Typer.prototype.stop = function() {
   this.typing = false;
 };
-Typer.prototype.doTyping = function() {
+Typer.prototype.doTyping = function () {
   var e = this.element;
   var p = this.progress;
   var w = p.word;
   var c = p.char;
-  var currentDisplay = [...this.words[w]].slice(0, c).join("");
-  var atWordEnd;
+  var word = this.words[w];
+
+  // Determine the length of the longest word for padding
+  if (!this.maxLength) {
+    this.maxLength = Math.max(...this.words.map(w => w.length));
+  }
+
+  var currentDisplay = [...word].slice(0, c).join("");
+
+  // Add invisible padding to preserve width
+  var padLength = this.maxLength - currentDisplay.length;
+  var invisiblePadding = "&nbsp;".repeat(padLength);
+  e.textContent = currentDisplay.padEnd(this.maxLength, ' ');
+
   if (this.cursor) {
     this.cursor.element.style.opacity = "1";
     this.cursor.on = true;
@@ -42,16 +54,18 @@ Typer.prototype.doTyping = function() {
     this.cursor.interval = setInterval(() => this.cursor.updateBlinkState(), 400);
   }
 
-  e.innerHTML = currentDisplay;
-
-  if (p.building) {
-    atWordEnd = p.char === this.words[w].length;
-    if (atWordEnd) {
+if (p.building) {
+  if (p.char === word.length) {
+    // finished building, wait now
+    setTimeout(() => {
       p.building = false;
-    } else {
-      p.char += 1;
-    }
+      if (this.typing) this.doTyping();
+    }, this.deleteDelay);
+    return;
   } else {
+    p.char += 1;
+  }
+} else {
     if (p.char === 0) {
       p.building = true;
       p.word = (p.word + 1) % this.words.length;
@@ -66,13 +80,15 @@ Typer.prototype.doTyping = function() {
     p.looped += 1;
   }
 
-  if (!p.building && this.loop <= p.looped){
+  if (!p.building && this.loop <= p.looped) {
     this.typing = false;
   }
 
   setTimeout(() => {
-    if (this.typing) { this.doTyping() };
-  }, atWordEnd ? this.deleteDelay : this.delay);
+  if (this.typing) {
+    this.doTyping();
+  }
+}, this.delay);
 };
 
 var Cursor = function(element) {

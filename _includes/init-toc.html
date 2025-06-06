@@ -1,0 +1,7 @@
+{% if page.toc != false %}
+<script src="{{ '/assets/lib/tocbot.min.js' | relative_url }}"></script>
+<script type="module">
+  import { initToc } from '{{ "/assets/js/javascripts/toc.js" | relative_url }}';
+  document.addEventListener("DOMContentLoaded", initToc);
+</script>
+{% endif %}
