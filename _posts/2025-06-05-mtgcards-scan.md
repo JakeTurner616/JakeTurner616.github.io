@@ -3,7 +3,6 @@ layout: post
 comments: true
 title: "mtgcards.scan: Fullstack MTG card scanning app"
 pinned: false
-toc: true    # ← ensures page-level still allows TOC
 redirect_from:
   - /mtgcards-scan/
 date: 2025-06-05 01:30:00 -0500
