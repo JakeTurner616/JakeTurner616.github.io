@@ -27,7 +27,7 @@ bundle exec jekyll serve
 
 ## Scripts
 
-update_readmes.py is used to bootstrap README files into the `_pages/` directory:
+update_readmes.py is used to bootstrap project README files from an upstream source:
 
 ```bash
 python scripts/update_readmes.py
