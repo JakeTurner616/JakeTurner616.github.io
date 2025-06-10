@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title: "mtgcards.scan: Fullstack MTG card scanning app"
+title: "mtgscan.cards: Fullstack MTG card scanning app"
 pinned: false
 redirect_from:
-  - /mtgcards-scan/
+  - /mtgscan-cards/
 date: 2025-06-05 01:30:00 -0500
 ---
 
-[mtgcards.scan](https://mtgcards.scan) is a simple full-stack MTG card scanning website for desktop and mobile.
+[mtgscan.cards](https://mtgscan.cards/) is a simple full-stack MTG card scanning website for desktop and mobile.
 
 <!-- BEGIN AUTO-README -->
 

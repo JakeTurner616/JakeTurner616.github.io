@@ -1,18 +1,49 @@
-## Serverboi.org static site
-[![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fserverboi.org&color=brightgreen)](https://serverboi.org/)
-[![proxystatus](https://img.shields.io/website?down_color=red&down_message=offline&label=proxy&up_color=brightgreen&up_message=online&url=https%3A%2F%2Fapi.serverboi.org%2F)](https://status.serverboi.org/)
-[![fileserver](https://img.shields.io/website?down_color=red&down_message=offline&label=file%20server&up_color=brightgreen&up_message=online&url=https://rom.serverboi.org)](https://rom.serverboi.org)
-[![uptimeserver](https://img.shields.io/website?down_color=red&down_message=offline&label=Uptime%20monitor&up_color=brightgreen&up_message=online&url=https://status.serverboi.org)](https://status.serverboi.org)
+# serverboi.org — Static Site
 
-## About
-This is a simple documentation site for [my github repositories](https://github.com/JakeTurner616?tab=repositories). This website is 100% open source. Create a [PR](https://github.com/JakeTurner616/JakeTurner616.github.io/pulls)?
+This is the source repo for [serverboi.org](https://serverboi.org), a static site built with a **heavily modified version of [Jekyll Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)**.
 
-## Credit
-This site uses [Jekyll](https://jekyllrb.com/) for static site generation and GitHub pages integration. See build status below:
+[![Deploy Status](https://github.com/JakeTurner616/JakeTurner616.github.io/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/JakeTurner616/JakeTurner616.github.io/actions/workflows/pages-deploy.yml)
 
-[![Automatic build](https://github.com/JakeTurner616/JakeTurner616.github.io/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/JakeTurner616/JakeTurner616.github.io/actions/workflows/pages-deploy.yml)
 
-This site uses the Jekyll theme [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/). See the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+---
+
+## Development
+
+## Requirements
+
+* Ruby ≥ 2.7
+* Bundler (`gem install bundler`)
+* Jekyll (installed via Bundler)
+* Python ≥ 3.6
+* Python packages: `pyyaml`, `requests`
+
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+---
+
+## Scripts
+
+update_readmes.py is used to bootstrap README files into the `_pages/` directory:
+
+```bash
+python scripts/update_readmes.py
+```
+
+This uses `repos.yml` in the `scripts/` directory to copy README files hosted on the internet into markdown for the static site.
+
+```yml
+- repo_url: https://github.com/mtgscan-cards/monolithic
+  branch: main
+  page_path: _posts/2025-06-05-mtgcards-scan.md
+```
+And injects it between `<!-- BEGIN AUTO-README -->` and `<!-- END AUTO-README -->` tags
+
+---
 
 ## License
-This work is published under [GNU GPL](https://github.com/JakeTurner616/JakeTurner616.github.io/blob/main/LICENSE.md) License.
+
+[GNU GPL 3.0](LICENSE.md)
