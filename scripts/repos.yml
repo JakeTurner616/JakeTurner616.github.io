@@ -47,3 +47,21 @@
   branch: main
   page_path: _posts/2025-06-05-mtgcards-scan.md
 
+- repo_url: https://github.com/JakeTurner616/Serufuhosuto-music-bot
+  branch: main
+  page_path: _posts/2025-06-11-self-hosted-music-bot.md
+
+- repo_url: https://github.com/JakeTurner616/YouTubeTV
+  branch: main
+  page_path: _posts/2025-06-11-YouTubeTV-adblocking.md
+
+
+- repo_url: https://github.com/JakeTurner616/Adonalsium
+  branch: master
+  page_path: _posts/2025-06-11-Adonalsium-data.md
+
+
+
+
+
+

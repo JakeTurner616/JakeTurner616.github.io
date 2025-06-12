@@ -82,7 +82,7 @@ LOG_LEVEL=INFO
 ### 3. Deploy
 
 ```bash
-docker compose up --build
+docker-compose up --build
 ```
 
 ```bash
@@ -102,7 +102,7 @@ npm run dev
 ## LICENSE
 
 This project is licensed under the GNU General Public License v3.0.  
-See the [LICENSE](./LICENSE) file for full details.
+See the [LICENSE](https://raw.githubusercontent.com/mtgscan-cards/monolithic/refs/heads/main/LICENSE) file for full details.
 <!-- END AUTO-README -->
 
 ---
