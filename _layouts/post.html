@@ -7,17 +7,11 @@ tail_includes:
   - related-posts
   - post-nav
   - comments
-
 ---
 
 <h1 data-toc-skip>{{ page.title }}</h1>
-<style>.image-caption {
-  text-align: center;
-  font-style: italic;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
-  color: #666;
-}</style>
+
+<link rel="stylesheet" href="{{ '/assets/css/img-enhance.css' | relative_url }}">
 
 <div class="post-meta text-muted">
   <!-- published date -->
@@ -39,7 +33,7 @@ tail_includes:
       {% unless page.image.no_bg %}bg{% endunless %}
     {% endcapture %}
     <div class="mt-3 mb-3">
-      <img src="{{ page.image.path | default: page.image }}"
+      <img src="{{ page.image.path | default: page.image | relative_url }}"
            class="preview-img {{ bg | strip }}"
            alt="{{ page.image.alt | default: 'Preview Image' }}"
            {% if page.image.width %}width="{{ page.image.width }}"{% endif %}
@@ -79,8 +73,6 @@ tail_includes:
   </div>
 </div>
 
-
-
 <div class="post-content">
   {{ content }}
 </div>
@@ -119,4 +111,5 @@ tail_includes:
   </div>
 </div>
 
-
+<!-- Image enhance: lazy/LQIP + lightbox -->
+<script src="{{ '/assets/js/img-enhance.js' | relative_url }}" defer></script>

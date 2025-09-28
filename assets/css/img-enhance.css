@@ -1,0 +1,153 @@
+/* assets/css/img-enhance.css */
+/* Clean, reliable shimmer *skeleton* that reserves the exact image footprint,
+   fades the real image in on decode, and works for slow connections & fast scroll. */
+
+/* ---------- Typography for captions (unchanged) ---------- */
+:root {
+  --caption-font: "Source Sans Pro","Microsoft Yahei",sans-serif;
+  --caption-color: #666;
+}
+.image-caption,
+figcaption.text-center,
+figcaption.image-caption {
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--caption-font);
+  color: var(--caption-color);
+  max-width: 900px;
+  margin: .5rem auto 1.25rem;
+  padding: 0;
+  text-align: center;
+  line-height: 1.45;
+  font-style: italic;
+  font-size: 0.98rem;
+  background: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* ---------- Default media behavior (centered, no forced upscaling) ---------- */
+.post-content img {
+  display: block;
+  margin: .35rem auto 1rem;
+  height: auto;
+  max-width: 100%;
+}
+
+/* ---------- SKELETON CONTAINER ---------- */
+/* .img-skel is inserted by JS AROUND the image (and its <a> if present). */
+.post-content .img-skel {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* Reserve space with aspect-ratio (from inline --w/--h computed by JS) */
+  aspect-ratio: var(--w, 16) / var(--h, 9);
+  width: 100%;
+  max-width: var(--maxw, 100%); /* cap width if the post provided width="…px" */
+}
+
+/* Fallback for very old browsers without aspect-ratio: use padding-top hack */
+@supports not (aspect-ratio: 1 / 1) {
+  .post-content .img-skel::before {
+    content: "";
+    display: block;
+    padding-top: calc((var(--h, 9) / var(--w, 16)) * 100%);
+  }
+}
+
+/* Make the anchor & image fill the reserved box */
+.post-content .img-skel > a,
+.post-content .img-skel > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* The real IMG fades in once loaded; while loading it's dim/hidden. */
+.post-content .img-skel img {
+  object-fit: contain;            /* never crop */
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+.post-content .img-skel.ready img {
+  opacity: 1;
+}
+
+/* ---------- SHIMMER LAYER (the visual skeleton) ---------- */
+.post-content .img-skel .skeleton-box {
+  position: absolute;
+  inset: 0;
+  background: #2e2e2e;            /* base skeleton tone (tweak for dark mode if needed) */
+  overflow: hidden;
+  pointer-events: none;           /* keep clicks on the anchor underneath */
+}
+.post-content .img-skel .skeleton-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    115deg,
+    rgba(255,255,255,0) 20%,
+    rgba(255,255,255,.15) 40%,
+    rgba(255,255,255,.3) 50%,
+    rgba(255,255,255,.15) 60%,
+    rgba(255,255,255,0) 80%
+  );
+  transform: translateX(-100%);
+  animation: skel-shimmer 1.6s ease-in-out infinite;
+}
+@keyframes skel-shimmer { to { transform: translateX(100%); } }
+
+/* Once image is ready, fade the skeleton out quickly */
+.post-content .img-skel.ready .skeleton-box {
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+
+/* ---------- Chirpy-style width & position utilities (apply to .img-skel, <a>, or <img>) ---------- */
+.post-content .w-100 { width: 100% !important; max-width: 100% !important; }
+.post-content .w-90  { width: 90%  !important; max-width: 90%  !important; }
+.post-content .w-75  { width: 75%  !important; max-width: 75%  !important; }
+.post-content .w-66  { width: 66.6667% !important; max-width: 66.6667% !important; }
+.post-content .w-60  { width: 60%  !important; max-width: 60%  !important; }
+.post-content .w-50  { width: 50%  !important; max-width: 50%  !important; }
+.post-content .w-40  { width: 40%  !important; max-width: 40%  !important; }
+.post-content .w-33  { width: 33.3333% !important; max-width: 33.3333% !important; }
+.post-content .w-25  { width: 25%  !important; max-width: 25%  !important; }
+
+/* Floats (optional) */
+.post-content .left  { float: left;  display: inline-block; margin: .25rem 1rem .5rem 0; }
+.post-content .right { float: right; display: inline-block; margin: .25rem 0 .5rem 1rem; }
+.post-content .normal{ float: none;  display: block;       margin-left: auto; margin-right: auto; }
+.post-content::after { content: ""; display: table; clear: both; }
+
+/* ---------- GLightbox caption cleanup ---------- */
+.glightbox-clean .gslide-description,
+.glightbox-clean .gdesc-inner,
+.glightbox-clean .gslide-desc,
+.glightbox-clean .gslide-title {
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--caption-font) !important;
+  text-align: center;
+  background: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+.glightbox-clean .gslide-title { font-weight: 600; font-size: 1.05rem; color: #ddd; margin: 0 0 .25rem 0; }
+.glightbox-clean .gslide-desc  { font-style: italic; font-size: 0.96rem; color: #bbb; }
+.glightbox-clean .gdesc-inner  { max-width: min(90vw, 900px); margin-inline: auto; padding: 0; }
+
+/* ---------- Mobile ---------- */
+@media (max-width: 768px) {
+  .post-content .left,
+  .post-content .right {
+    float: none;
+    display: block;
+    margin: .35rem auto 1rem;
+  }
+}
+
+/* Spacing between image and caption */
+.post-content img + .image-caption,
+.post-content figure > figcaption { margin-top: .35rem; }
