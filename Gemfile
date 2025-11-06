@@ -6,7 +6,7 @@ ruby "~> 3.2"
 
 gem "rake"   # ✅ required for building native gems like google-protobuf
 
-%w[csv base64 bigdecimal date digest io-nonblock io-wait json openssl pathname set stringio time zlib].each { |lib| gem lib }
+%w[csv base64 bigdecimal date digest io-nonblock io-wait json openssl set stringio time zlib].each { |lib| gem lib }
 
 gem "jekyll-theme-chirpy", "~> 5.2", ">= 5.2.1"
 
