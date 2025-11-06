@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
+%w[csv base64 bigdecimal date digest io-nonblock io-wait json openssl pathname set stringio time zlib].each { |lib| gem lib }
+
 gem "jekyll-theme-chirpy", "~> 5.2", ">= 5.2.1"
 
 group :test do

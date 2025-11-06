@@ -2,7 +2,7 @@
 layout: post
 comments: true
 published: true
-pin: true
+pin: false
 title: "DiscordTorrentManager - Torrent Client"
 date: 2024-06-12 2:50:00 -0500
 ---
