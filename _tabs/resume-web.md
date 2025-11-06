@@ -28,5 +28,5 @@ h1.dynamic-title {
 </p>
 
 <p style="text-align:center; margin-top:2rem;">
-  👉 <a href="{{ site.baseurl }}/resume-web">Or go back to IT Specialist resume</a>
+  👉 <a href="{{ site.baseurl }}/resume">Or go back to IT Specialist resume</a>
 </p>
