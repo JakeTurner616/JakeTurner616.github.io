@@ -188,9 +188,30 @@ This approach yields non-jitter contact without requiring impulses or friction m
 
 ---
 
-# Cite This Project
+## Cite This Project
 
-If you use or modify this work in an academic or research context, please cite both this implementation and the original XPBD paper:
+If you use or modify this work in an academic or research context, please cite both this
+implementation and the original XPBD paper.
+
+@misc{turner2025xpbdtire,
+  author       = {Turner, Jakob},
+  title        = {XPBPhysicsPrototype},
+  year         = {2025},
+  howpublished = {\url{https://github.com/JakeTurner616/XPBPhysicsPrototype}},
+  note         = {Real-time deformable tire simulation based on XPBD}
+}
+
+@article{macklin2016xpbd,
+  title   = {XPBD: Position-Based Simulation of Compliant Constrained Dynamics},
+  author  = {Macklin, Miles and Müller, Matthias and Chentanez, Nuttapong},
+  journal = {NVIDIA Research},
+  year    = {2016},
+  url     = {https://matthias-research.github.io/pages/publications/XPBD.pdf}
+}
+
+## License
+
+If you use or modify the source code and plan to re-release it, it must be open source per the [GNU GPL 3.0 license](../LICENSE).
 
 ---
 
