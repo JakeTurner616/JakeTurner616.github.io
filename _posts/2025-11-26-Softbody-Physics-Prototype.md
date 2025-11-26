@@ -18,7 +18,7 @@ Try out the demo [here](https://codepen.io/jaketurner616/pen/RNaQXjO).
 
 ---
 
-# Overview
+## Overview
 
 The tire model is constructed using a pair of concentric particle rings:
 
@@ -32,7 +32,7 @@ The solver is based on XPBD, which extends traditional Position-Based Dynamics b
 
 ---
 
-# XPBD Background
+## XPBD Background
 
 XPBD modifies PBD by replacing the traditional constraint projection rule with a formulation that adds **compliance**, allowing constraints to behave elastically.
 
@@ -82,7 +82,7 @@ $$ \alpha = \text{constraint compliance (inverse stiffness)} $$
 
 Enabling both rigid and soft constraints in the same solver.
 
-# Distance Constraint
+### Distance Constraint
 
 For two particles \(a\) and \(b\) with rest length \(L_0\):
 
@@ -121,7 +121,7 @@ $$ \lambda = \text{XPBD Lagrange multiplier including the compliance denominator
 This governs all outer-ring, inner-ring, and radial constraints.
 
 
-# Pressure Constraint
+### Pressure Constraint
 
 The pressure constraint preserves the polygon area of the outer ring.  
 The signed area of an \(N\)-vertex polygon is:
@@ -160,7 +160,7 @@ $$
 The correction is applied to each particle with its inverse mass and XPBD compliance term. This behaves like an internal pneumatic pressure that maintains radial stiffness.
 
 
-# Contact Resolution (AABB Model)
+### Contact Resolution (AABB Model)
 
 Ground and rigid-body interaction uses an analytically stable AABB contact.  
 For a particle \(p\) and a box region, penetration is resolved by projecting \(p\) outward along the smallest overlap direction:
