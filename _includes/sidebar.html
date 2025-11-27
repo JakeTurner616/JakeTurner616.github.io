@@ -25,7 +25,9 @@
   li.nav-item:nth-child(5)>a:nth-child(1)>span:nth-child(2) {
     font-weight: 600
   }
-
+.hidden-tab {
+  display: none !important;
+}
   span.cursor {
     color: grey
   }
@@ -76,7 +78,7 @@
 
   </div><!-- .profile-wrapper -->
 
-  <ul class="w-100">
+  <ul class="nav flex-column flex-grow-1 w-100 ps-0">
 
     <!-- home -->
     <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
@@ -86,18 +88,16 @@
       </a>
     </li>
     <!-- the real tabs -->
-    {% for tab in site.tabs %}
-      {% unless tab.hide %}
-      <li class="nav-item{% if tab.url == page.url %} active{% endif %}">
-        <a href="{{ tab.url | relative_url }}" class="nav-link">
-          <i class="fa-fw {{ tab.icon }} ml-xl-3 mr-xl-3 unloaded"></i>
-          {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
-          <span>{{ site.data.locales[site.lang].tabs.[tab_name] 
-                | default: tab.title | upcase }}</span>
-        </a>
-      </li>
-      {% endunless %}
-    {% endfor %}
+{% for tab in site.tabs %}
+<li class="nav-item{% if tab.url == page.url %} active{% endif %}">
+  <a href="{{ tab.url | relative_url }}" class="nav-link">
+    <i class="fa-fw {{ tab.icon }} ml-xl-3 mr-xl-3 unloaded"></i>
+    {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
+    <span>{{ site.data.locales[site.lang].tabs.[tab_name] 
+          | default: tab.title | upcase }}</span>
+  </a>
+</li>
+{% endfor %}
 
   </ul> <!-- ul.nav.flex-column -->
 

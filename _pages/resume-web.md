@@ -1,9 +1,8 @@
 ---
-title: Resume
-type: post
-icon: fas fa-user
-order: 0
-hide: true
+layout: page
+title: Resume Web
+permalink: /resume-web/
+nav_exclude: true
 ---
 
 <style>
